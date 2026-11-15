@@ -1,4 +1,4 @@
-name: Kontrollera kurdiska och persiska TV-kanaler
+name: Kontrollera kanalernas strömadresser
 
 on:
   workflow_dispatch:
@@ -15,7 +15,7 @@ concurrency:
 jobs:
   check-streams:
     runs-on: ubuntu-latest
-    timeout-minutes: 22
+    timeout-minutes: 25
     steps:
       - name: Hämta repository
         uses: actions/checkout@v4
@@ -23,23 +23,21 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Kontrollera kurdiska adresser
+      - name: Testa kurdiska strömmar i huvudlistan
         run: |
-          python scripts/check_streams.py --playlist playlists/kurdistan.m3u --report reports/kurdistan-health.md --json reports/kurdistan-health.json --workers 12 --timeout 8
-          python scripts/publish_verified.py --playlist playlists/kurdistan.m3u --report reports/kurdistan-health.json --output playlists/kurdistan-verified.m3u --group Kurdistan
-      - name: Kontrollera persiska adresser
+          python scripts/check_streams.py --playlist playlists/all.m3u --group Kurdiska --report reports/kurdistan-health.md --json reports/kurdistan-health.json --workers 12 --timeout 8
+      - name: Testa persiska strömmar i huvudlistan
         run: |
-          python scripts/check_streams.py --playlist playlists/persian.m3u --report reports/persian-health.md --json reports/persian-health.json --workers 12 --timeout 8
-          python scripts/publish_verified.py --playlist playlists/persian.m3u --report reports/persian-health.json --output playlists/persian-verified.m3u --group "Persiska / Iran"
-      - name: Spara rapporter och verifierade listor
+          python scripts/check_streams.py --playlist playlists/all.m3u --group Persiska --report reports/persian-health.md --json reports/persian-health.json --workers 12 --timeout 8
+      - name: Publicera kontrollrapporter
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A reports/ playlists/
+          git add reports/
           if git diff --cached --quiet; then
-            echo "Inga ändringar."
+            echo "Inga nya rapporter."
           else
-            git commit -m "Uppdatera verifierade strömlistor"
+            git commit -m "Uppdatera kontrollrapport för TV-strömmar"
             git push
           fi
