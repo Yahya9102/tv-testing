@@ -54,7 +54,7 @@ def re_group(extinf: str, group_name: str) -> str:
     return extinf + attr
 
 
-def parse_m3u(data: str, group_name: str) -> list[Channel]:
+def parse_m3u(data: str, group_name: str | None) -> list[Channel]:
     if not data.lstrip("\ufeff \r\n\t").startswith("#EXTM3U"):
         raise ValueError("The source does not start with #EXTM3U")
 
@@ -64,7 +64,7 @@ def parse_m3u(data: str, group_name: str) -> list[Channel]:
     for raw_line in data.splitlines():
         line = raw_line.strip()
         if line.startswith("#EXTINF:"):
-            info = re_group(line, group_name)
+            info = re_group(line, group_name) if group_name is not None else line
             options = []
         elif info is not None and line.startswith(HEADERS):
             options.append(line)
@@ -121,15 +121,38 @@ def read_local_source(relative_path: str, root: Path = ROOT) -> str:
 
 
 def build(config: dict, fetcher=fetch_playlist, root: Path = ROOT) -> tuple[dict[str, str], dict]:
+    """Publish ONE playlist: group-title supplies the separate TV categories."""
+    previous_file = root / "playlists" / "all.m3u"
+    previous: list[Channel] = []
+    if previous_file.is_file():
+        try:
+            previous = parse_m3u(previous_file.read_text(encoding="utf-8-sig"), None)
+        except (OSError, ValueError):
+            previous = []
+
+    # Old category names are accepted during migration to Swedish labels.
+    aliases = {
+        "Kurdiska": {"Kurdiska", "Kurdistan"},
+        "Persiska": {"Persiska", "Persiska / Iran"},
+        "Irakiska": {"Irakiska", "Irak"},
+        "Arabiska": {"Arabiska"},
+        "Svenska": {"Svenska", "Sverige"},
+        "Turkiska": {"Turkiska", "Turkiet"},
+        "Internationella": {"Internationella"},
+    }
     groups = config["groups"]
-    files: dict[str, str] = {}
     all_channels: list[Channel] = []
-    stats = {"updated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "groups": {}, "warnings": [], "source": "IPTV-org and curated public URL candidates; availability not tested"}
+    stats = {
+        "updated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "groups": {}, "warnings": [],
+        "source": "IPTV-org and curated public URL candidates; not live-verified",
+    }
     for group in groups:
         group_id, name = group["id"], group["name"]
         if not re.fullmatch(r"[a-z0-9_-]+", group_id):
             raise ValueError(f"Unsafe group id: {group_id}")
-        entries = []
+        entries: list[Channel] = []
+        source_failed = False
         for source in group["sources"]:
             url = source if isinstance(source, str) else source.get("file", source.get("url", "unknown"))
             try:
@@ -140,33 +163,46 @@ def build(config: dict, fetcher=fetch_playlist, root: Path = ROOT) -> tuple[dict
                 downloaded = parse_m3u(raw, name)
                 if isinstance(source, dict) and source.get("channel_ids"):
                     wanted_ids = set(source["channel_ids"])
-                    downloaded = [c for c in downloaded if (match := re.search(r'tvg-id="([^"]+)"', c.info)) and match.group(1) in wanted_ids]
+                    downloaded = [
+                        c for c in downloaded
+                        if (match := re.search(r'tvg-id="([^"]+)"', c.info))
+                        and match.group(1) in wanted_ids
+                    ]
                 if not downloaded:
                     raise ValueError(f"No usable streams in {url}")
                 entries.extend(downloaded)
             except (RuntimeError, ValueError, OSError, HTTPError, URLError, TimeoutError) as error:
+                source_failed = True
                 warning = f"{group_id}: skipped {url}: {error}"
                 print("WARNING: " + warning, file=sys.stderr)
                 stats["warnings"].append(warning)
-        if not entries:
-            previous = root / "playlists" / f"{group_id}.m3u"
-            if previous.is_file():
-                try:
-                    entries = parse_m3u(previous.read_text(encoding="utf-8-sig"), name)
-                except (OSError, ValueError):
-                    entries = []
-            if not entries:
-                raise RuntimeError(f"No working source or previous playlist for {group_id}")
-            stats["warnings"].append(f"{group_id}: preserved previous playlist")
+
+        # Preserve historical links for this category when a source temporarily
+        # stops responding. Successful full refreshes still remove obsolete URLs.
+        if source_failed:
+            legacy_names = aliases.get(name, {name})
+            old_entries = [
+                Channel(re_group(c.info, name), c.url, c.options)
+                for c in previous
+                if (m := re.search(r'group-title="([^"]+)"', c.info))
+                and m.group(1) in legacy_names
+            ]
+            entries.extend(old_entries)
         own = unique_channels(entries)
-        files[f"{group_id}.m3u"] = render_playlist(own)
-        stats["groups"][group_id] = {"label": name, "channels": len(own), "sources": len(group["sources"])}
+        if not own:
+            stats["warnings"].append(f"{group_id}: no channels, category skipped")
+            continue
+        stats["groups"][group_id] = {
+            "label": name, "channels": len(own), "sources": len(group["sources"])
+        }
         all_channels.extend(own)
 
     combined = unique_channels(all_channels)
-    files["all.m3u"] = render_playlist(combined)
+    if not combined:
+        raise RuntimeError("No working source or previous playlist; refusing to replace all.m3u")
     stats["combined_unique_streams"] = len(combined)
-    return files, stats
+    # Deliberately DO NOT write one M3U file per group.
+    return {"all.m3u": render_playlist(combined)}, stats
 
 
 def write_results(files: dict[str, str], stats: dict, destination: Path) -> None:
