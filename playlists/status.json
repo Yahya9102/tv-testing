@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-15T17:48:25+00:00",
+  "updated_utc": "2026-11-15T18:16:19+00:00",
   "groups": {
     "kurdistan": {
       "label": "Kurdiska",
@@ -38,13 +38,6 @@
     }
   },
   "warnings": [],
-  "source": "Public IPTV-org and Free-TV/IPTV candidate lists; streams not individually verified",
-  "combined_unique_streams": 3266,
-  "playlist_entries": 3290,
-  "iraq_enrichment": {
-    "iptv_org_entries": 58,
-    "free_tv_iraq_entries": 14,
-    "added_to_iraqi_category": 34,
-    "already_in_iraqi_category": 34
-  }
+  "source": "IPTV-org and curated public URL candidates; not live-verified",
+  "combined_unique_streams": 3466
 }
