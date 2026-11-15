@@ -1,75 +1,76 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="4Kurd.fr@SD" group-title="Kurdistan",4Kurd
+#EXTINF:-1 tvg-id="4Kurd.fr@SD" tvg-logo="https://www.aparatchi.com/images/chanells-logo/4kurd.svg" group-title="Kurdistan",4Kurd
 https://4kuhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="AfarinBaxcha.iq@SD" group-title="Kurdistan",Afarin Baxcha
+#EXTINF:-1 tvg-id="AfarinBaxcha.iq@SD" tvg-logo="https://i.postimg.cc/4xRkBDRx/Afarin-Baxcha-200.png" group-title="Kurdistan",Afarin Baxcha (1080p)
 https://5dcabf026b188.streamlock.net/afarinTV/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="AfarinTV.iq@SD" group-title="Kurdistan",Afarin TV
+#EXTINF:-1 tvg-id="AfarinTV.iq@SD" tvg-logo="https://i.imgur.com/6MnXD7g.png" group-title="Kurdistan",Afarin TV (720p) [Not 24/7]
 https://65f16f0fdfc51.streamlock.net/afarinTV/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="AlIraqiaKurdish.iq@HD" group-title="Kurdistan",Al Iraqia Kurdish
+#EXTINF:-1 tvg-id="AlIraqiaKurdish.iq@HD" tvg-logo="https://gateway.esite-lab.com/file-storage/api/v1/public/uploads/2025/3/8/7a8a2548d8e5850e87066d2e573796189.png" group-title="Kurdistan",Al Iraqia Kurdish (720p)
 https://imn-live.esite-lab.com/hls/iraqia-kurdish.m3u8
-#EXTINF:-1 tvg-id="AmozhgaryTV.iq@SD" group-title="Kurdistan",Amozhgary TV
+#EXTINF:-1 tvg-id="AmozhgaryTV.iq@SD" tvg-logo="https://i.imgur.com/sseqFsO.png" group-title="Kurdistan",Amozhgary TV
 https://app-live.org/live/3268334b/index.m3u8
-#EXTINF:-1 tvg-id="AryenTV.se@SD" group-title="Kurdistan",Aryen TV
+#EXTINF:-1 tvg-id="AryenTV.se@SD" tvg-logo="https://i.imgur.com/hIhzT7t.png" group-title="Kurdistan",Aryen TV (1080p) [Not 24/7]
 https://aryen.tv/live/tv/playlist.m3u8
-#EXTINF:-1 tvg-id="AtrakTV.ir@SD" group-title="Kurdistan",Atrak TV
+#EXTINF:-1 tvg-id="AtrakTV.ir@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/2/28/Bojnourd_ATRAK_TV.svg/960px-Bojnourd_ATRAK_TV.svg.png" group-title="Kurdistan",Atrak TV
 https://ncdn.telewebion.ir/atrak/live/playlist.m3u8
-#EXTINF:-1 tvg-id="AVAMedia.iq@HD" group-title="Kurdistan",AVA Media
+#EXTINF:-1 tvg-id="AVAMedia.iq@HD" tvg-logo="https://github.com/user-attachments/assets/a9259f18-b9f2-4aa0-86f0-8fba1f343e69" group-title="Kurdistan",AVA Media (1080p)
 http://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV-avc1_2500000=10002,mp4a_128000=20000.m3u8
-#EXTINF:-1 tvg-id="AvarTV.iq@HD" group-title="Kurdistan",Avar TV
+#EXTINF:-1 tvg-id="AvarTV.iq@HD" tvg-logo="https://i.imgur.com/JazFBkW.jpeg" group-title="Kurdistan",Avar TV (1080p)
 https://avr.host247.net/live/AvarTv/playlist.m3u8
-#EXTINF:-1 tvg-id="Channel8.iq@SD" group-title="Kurdistan",Channel 8 Kurdish
+#EXTINF:-1 tvg-id="Channel8.iq@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Channel8corp.png/960px-Channel8corp.png" group-title="Kurdistan",Channel8 (720p)
 https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8
-#EXTINF:-1 tvg-id="CiraTV.de@SD" group-title="Kurdistan",Cira TV
+#EXTINF:-1 tvg-id="CiraTV.de@SD" tvg-logo="https://i.imgur.com/YFnmSLW.png" group-title="Kurdistan",Cira TV (1080p)
 https://hlspackager.akamaized.net/live/DB/CIRA_TV/HLS/CIRA_TV.m3u8
-#EXTINF:-1 tvg-id="EmanTv.iq@HD" group-title="Kurdistan",Eman TV
+#EXTINF:-1 tvg-id="EmanTv.iq@HD" tvg-logo="https://i.imgur.com/QmgaPSi.png" group-title="Kurdistan",EmanTv (1080p)
 https://avr.host247.net/live/emantv/playlist.m3u8
-#EXTINF:-1 tvg-id="FarmodaTV.iq@HD" group-title="Kurdistan",Farmoda TV
+#EXTINF:-1 tvg-id="FarmodaTV.iq@HD" tvg-logo="https://i.imgur.com/x4KCQlH.png" group-title="Kurdistan",FarmodaTV (1080p)
 https://avr.host247.net/live/FarmodaTV/playlist.m3u8
-#EXTINF:-1 tvg-id="IlkeTV.tr@HD" group-title="Kurdistan",Ilke TV
+#EXTINF:-1 tvg-id="IlkeTV.tr@HD" tvg-logo="https://ilketv.com.tr/wp-content/uploads/2024/06/logo.png" group-title="Kurdistan",Ilke TV (1080p)
 https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
-#EXTINF:-1 tvg-id="JinTV.nl@SD" group-title="Kurdistan",Jin TV
+#EXTINF:-1 tvg-id="JinTV.nl@SD" tvg-logo="https://i.imgur.com/37ajg2j.png" group-title="Kurdistan",Jin TV
 https://live.jintv.org/medialive/jintv.m3u8
-#EXTINF:-1 tvg-id="KomalaTV.se@SD" group-title="Kurdistan",Komala TV
+#EXTINF:-1 tvg-id="KomalaTV.se@SD" tvg-logo="https://i.imgur.com/D6KBLB8.png" group-title="Kurdistan",Komala TV
 https://komhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="KurdChannel.iq@SD" group-title="Kurdistan",Kurd Channel
+#EXTINF:-1 tvg-id="KurdChannel.iq@SD" tvg-logo="https://i.imgur.com/xPwzad9.png" group-title="Kurdistan",Kurd Channel
 https://kurdchhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="Kurdistan24.iq@SD" group-title="Kurdistan",Kurdistan 24
+#EXTINF:-1 tvg-id="Kurdistan24.iq@SD" tvg-logo="https://i.imgur.com/9QWs2ms.png" group-title="Kurdistan",Kurdistan 24 (1080p)
 https://hlspackager.akamaized.net/live/DB/K24/HLS/K24.m3u8
-#EXTINF:-1 tvg-id="KurdistanTV.iq@SD" group-title="Kurdistan",Kurdistan TV
+#EXTINF:-1 tvg-id="KurdistanTV.iq@SD" tvg-logo="https://i.imgur.com/mjQptpc.png" group-title="Kurdistan",Kurdistan TV (720p) [Not 24/7]
 https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Kurdsat.iq@SD" group-title="Kurdistan",Kurdsat
+#EXTINF:-1 tvg-id="Kurdsat.iq@SD" tvg-logo="https://i.imgur.com/UAbSwYA.png" group-title="Kurdistan",Kurdsat (1080p)
 https://hlspackager.akamaized.net/live/DB/KURDSAT_HD/HLS/KURDSAT_HD.m3u8
-#EXTINF:-1 tvg-id="KurdsatNews.iq@SD" group-title="Kurdistan",Kurdsat News
+#EXTINF:-1 tvg-id="KurdsatNews.iq@SD" tvg-logo="https://i.imgur.com/F3XRwkt.png" group-title="Kurdistan",Kurdsat News (1080p)
 https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8
-#EXTINF:-1 tvg-id="MedMuzik.tr@SD" group-title="Kurdistan",Med Muzik
+#EXTINF:-1 tvg-id="MedMuzik.tr@SD" tvg-logo="https://i.imgur.com/gtUFmCD.png" group-title="Kurdistan",Med Muzik (1080p)
 http://54.36.110.140/live3/live3.m3u8
-#EXTINF:-1 tvg-id="Mixkurdy.iq@HD" group-title="Kurdistan",Mixkurdy
+#EXTINF:-1 tvg-id="Mixkurdy.iq@HD" tvg-logo="https://i.imgur.com/WHeH5i7.png" group-title="Kurdistan",Mixkurdy (1080p)
 https://avr.host247.net/live/Mix-kurdy/playlist.m3u8
-#EXTINF:-1 tvg-id="NRTTV.iq@SD" group-title="Kurdistan",NRT TV
+#EXTINF:-1 tvg-id="NRTTV.iq@SD" tvg-logo="https://i.imgur.com/uGKGtbW.png" group-title="Kurdistan",NRT TV (720p) [Not 24/7]
 https://media.streambrothers.com:1936/8226/8226/playlist.m3u8
-#EXTINF:-1 tvg-id="PayamTV.iq@SD" group-title="Kurdistan",Payam TV
+#EXTINF:-1 tvg-id="PayamTV.iq@SD" tvg-logo="https://i.imgur.com/qySEibb.png" group-title="Kurdistan",Payam TV (1080p)
 https://hlspackager.akamaized.net/live/DB/PAYAM_TV/HLS/PAYAM_TV.m3u8
-#EXTINF:-1 tvg-id="RojavaTV.sy@SD" group-title="Kurdistan",Rojava TV
+#EXTINF:-1 tvg-id="RojavaTV.sy@SD" tvg-logo="https://i.imgur.com/42noysO.png" group-title="Kurdistan",Rojava TV (1080p)
 https://hlspackager.akamaized.net/live/DB/ROJAVA_HD/HLS/ROJAVA_HD.m3u8
-#EXTINF:-1 tvg-id="RonahiTV.sy@SD" group-title="Kurdistan",Ronahi TV
+#EXTINF:-1 tvg-id="RonahiTV.sy@SD" tvg-logo="https://i.imgur.com/JSvJpD8.png" group-title="Kurdistan",Ronahi TV (1080p)
 https://hlspackager.akamaized.net/live/DB/RONAHI_TV/HLS/RONAHI_TV.m3u8
-#EXTINF:-1 tvg-id="RudawTV.iq@SD" group-title="Kurdistan",Rudaw TV
+#EXTINF:-1 tvg-id="RudawTV.iq@SD" tvg-logo="https://i.imgur.com/Zo3IWOn.png" group-title="Kurdistan",Rudaw TV (1080p)
 https://hlspackager.akamaized.net/live/DB/RUDAW/HLS/RUDAW.m3u8
-#EXTINF:-1 tvg-id="SercemTV.tr@HD" group-title="Kurdistan",Sercem TV
+#EXTINF:-1 tvg-id="SercemTV.tr@HD" tvg-logo="https://sercemtv.com.tr/sercemlogo.jpg" group-title="Kurdistan",Sercem TV (1080p)
 https://canli.sercemtv.com.tr/hls/0/stream.m3u8
-#EXTINF:-1 tvg-id="SterkTV.be@SD" group-title="Kurdistan",Sterk TV
+#EXTINF:-1 tvg-id="SterkTV.be@SD" tvg-logo="https://i.imgur.com/bIheNAI.png" group-title="Kurdistan",Sterk TV (1080p)
 https://hlspackager.akamaized.net/live/DB/STERK_TV/HLS/STERK_TV.m3u8
-#EXTINF:-1 tvg-id="TRTKurdi.tr@SD" group-title="Kurdistan",TRT Kurdi
+#EXTINF:-1 tvg-id="TRTKurdi.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/TRT_Kurd%C3%AE_logo.svg/960px-TRT_Kurd%C3%AE_logo.svg.png" group-title="Kurdistan",TRT Kurdi (720p)
 https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="WaarTV.iq@SD" group-title="Kurdistan",Waar TV
+#EXTINF:-1 tvg-id="WaarTV.iq@SD" tvg-logo="https://i.imgur.com/rK0y02d.png" group-title="Kurdistan",Waar TV (1080p)
 https://hlspackager.akamaized.net/live/DB/WAAR_HD/HLS/WAAR_HD.m3u8
-#EXTINF:-1 tvg-id="WestAzerbaijanTV.ir@SD" group-title="Kurdistan",West Azerbaijan TV
+#EXTINF:-1 tvg-id="WestAzerbaijanTV.ir@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/2/21/Urmia_TV.svg/960px-Urmia_TV.svg.png" group-title="Kurdistan",West Azerbaijan TV
 https://ncdn.telewebion.ir/azarbayjangharbi/live/playlist.m3u8
-#EXTINF:-1 tvg-id="ZarokTV.tr@SD" group-title="Kurdistan",Zarok TV (Kurmanci)
+#EXTINF:-1 tvg-id="ZarokTV.tr@SD" tvg-logo="https://i.imgur.com/o0eevnb.png" group-title="Kurdistan",Zarok TV (720p)
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ZoomNews.us@SD" group-title="Kurdistan",Zoom News
+#EXTINF:-1 tvg-id="ZoomNews.us@SD" tvg-logo="https://t4.ftcdn.net/jpg/03/88/22/21/360_F_388222175_D6PTsMoUyegpPJ63zvkecPsZAttc95mD.jpg" http-referrer="https://zoomnews.info/" group-title="Kurdistan",Zoom News (720p)
+#EXTVLCOPT:http-referrer=https://zoomnews.info/
 https://live.zoomnews.info/live/Zoom_playlist.m3u8
-#EXTINF:-1 tvg-id="ZagrosTV.iq@SD" group-title="Kurdistan",Zagros TV
+#EXTINF:-1 tvg-id="ZagrosTV.iq@SD" tvg-logo="https://i.imgur.com/9Mspf32.png" group-title="Kurdistan",Zagros TV (Iraq) (1080p)
 https://hlspackager.akamaized.net/live/DB/ZAGROS_TV/HLS/ZAGROS_TV.m3u8
 #EXTINF:-1 group-title="Kurdistan",Kurdmax Sorani
 https://6476e46b58f91.streamlock.net/liveTrans/KurdmaxS0rani!/playlist.m3u8

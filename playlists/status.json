@@ -1,38 +1,42 @@
 {
-  "updated_utc": "2026-11-15T16:42:02+00:00",
+  "updated_utc": "2026-11-15T17:24:51+00:00",
   "groups": {
     "kurdistan": {
       "label": "Kurdistan",
       "channels": 59,
       "sources": 3
     },
+    "persian": {
+      "label": "Persiska / Iran",
+      "channels": 209,
+      "sources": 2
+    },
     "iraq": {
       "label": "Irak",
-      "channels": 6,
+      "channels": 58,
       "sources": 1
     },
     "arabic": {
       "label": "Arabiska",
-      "channels": 4,
+      "channels": 352,
       "sources": 1
     },
     "sweden": {
       "label": "Sverige",
-      "channels": 5,
+      "channels": 138,
       "sources": 1
     },
     "turkey": {
       "label": "Turkiet",
-      "channels": 5,
+      "channels": 178,
       "sources": 1
     },
     "international": {
       "label": "Internationella",
-      "channels": 5,
-      "sources": 4
+      "channels": 2462,
+      "sources": 2
     }
   },
-  "combined_unique_streams": 83,
-  "source": "IPTV-org snapshot (2026-11-15) and curated URL candidates; individual streams not live-verified",
-  "delivery_note": "Run GitHub Actions to fetch the latest IPTV-org data."
+  "source": "IPTV-org and curated public URL candidates; availability not tested",
+  "combined_unique_streams": 3256
 }
