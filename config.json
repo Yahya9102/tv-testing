@@ -1,9 +1,9 @@
 {
-  "description": "Egna M3U-listor med alla IPTV-org kurdiska kanaler och en separat kuraterad fil för ytterligare kurdiska strömkandidater. Inte en tillgänglighetsgaranti.",
+  "description": "En gemensam M3U-spellista för IBO Player, med kategorier via group-title. Offentligt listade strömkandidater.",
   "groups": [
     {
       "id": "kurdistan",
-      "name": "Kurdistan",
+      "name": "Kurdiska",
       "sources": [
         "https://iptv-org.github.io/iptv/languages/kur.m3u",
         {
@@ -19,7 +19,7 @@
     },
     {
       "id": "persian",
-      "name": "Persiska / Iran",
+      "name": "Persiska",
       "sources": [
         "https://iptv-org.github.io/iptv/languages/fas.m3u",
         "https://iptv-org.github.io/iptv/countries/ir.m3u"
@@ -27,7 +27,7 @@
     },
     {
       "id": "iraq",
-      "name": "Irak",
+      "name": "Irakiska",
       "sources": [
         "https://iptv-org.github.io/iptv/countries/iq.m3u"
       ]
@@ -41,14 +41,14 @@
     },
     {
       "id": "sweden",
-      "name": "Sverige",
+      "name": "Svenska",
       "sources": [
         "https://iptv-org.github.io/iptv/countries/se.m3u"
       ]
     },
     {
       "id": "turkey",
-      "name": "Turkiet",
+      "name": "Turkiska",
       "sources": [
         "https://iptv-org.github.io/iptv/countries/tr.m3u"
       ]
