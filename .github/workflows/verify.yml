@@ -1,17 +1,21 @@
-name: Kontrollera kurdiska TV-kanaler
+name: Kontrollera kurdiska och persiska TV-kanaler
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 9 * * *' # Dagligen 09:15 UTC (sommartid 11:15 i Sverige)
+    - cron: '15 9 * * *' # dagligen 09:15 UTC
 
 permissions:
   contents: write
 
+concurrency:
+  group: tv-testing-git-writes
+  cancel-in-progress: false
+
 jobs:
   check-streams:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 22
     steps:
       - name: Hämta repository
         uses: actions/checkout@v4
@@ -19,18 +23,23 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Kör enhetstester
-        run: python -m unittest discover -s tests -v
-      - name: Kontrollera M3U8 och mediasegment
-        run: python scripts/check_streams.py --playlist playlists/kurdistan.m3u
-      - name: Spara kontrollrapport
+      - name: Kontrollera kurdiska adresser
+        run: |
+          python scripts/check_streams.py --playlist playlists/kurdistan.m3u --report reports/kurdistan-health.md --json reports/kurdistan-health.json --workers 12 --timeout 8
+          python scripts/publish_verified.py --playlist playlists/kurdistan.m3u --report reports/kurdistan-health.json --output playlists/kurdistan-verified.m3u --group Kurdistan
+      - name: Kontrollera persiska adresser
+        run: |
+          python scripts/check_streams.py --playlist playlists/persian.m3u --report reports/persian-health.md --json reports/persian-health.json --workers 12 --timeout 8
+          python scripts/publish_verified.py --playlist playlists/persian.m3u --report reports/persian-health.json --output playlists/persian-verified.m3u --group "Persiska / Iran"
+      - name: Spara rapporter och verifierade listor
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports/kurdistan-health.md reports/kurdistan-health.json
+          git add -A reports/ playlists/
           if git diff --cached --quiet; then
-            echo "Ingen rapport att publicera."
+            echo "Inga ändringar."
           else
-            git commit -m "Uppdatera kanalernas kontrollrapport"
+            git commit -m "Uppdatera verifierade strömlistor"
             git push
           fi

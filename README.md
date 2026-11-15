@@ -27,3 +27,16 @@ Kurdistan-listan har en levererad uppsättning av 59 listade strömadresser, ink
 Adresser kommer främst från [IPTV-org](https://github.com/iptv-org/iptv) och kompletterande öppna listor. En publicerad URL är inte en garanti för drift, geografisk tillgänglighet eller rätt att återdistribuera kanalens innehåll. Projektet tillhandahåller ingen videoserver, betalkanaler, kringgående av DRM eller åtkomst till tidigare PIN-skyddat abonnemang. Lägg inte privata tokens, inloggningar eller hemliga strömlänkar i detta publika repo.
 
 Källor och reservadresser finns i `sources/`; automatiseringen finns i `.github/workflows/`; testerna finns i `tests/`.
+
+## Kontroll av trasiga adresser
+
+- **Kodtester** körs separat via workflow "Kontrollera kodtester", utan att blockera schemalagd uppdatering.
+- **Riktiga strömtester** körs dagligen för kurdiska och persiska kanaler. GitHub testar HLS-manifest och hämtar en liten bit av ett videosegment.
+- **Verifierade spellistor** inkluderar bara adresser som nått videosegment (eller som tidigare varit verifierade men nu har ett tillfälligt timeout-/blockeringsproblem).
+- Om många kanaler fallerar samtidigt behåller vi senast publicerade verifierade lista i stället för att tömma den.
+
+Kurdiska, kontrollerade kanaler: https://raw.githubusercontent.com/Yahya9102/tv-testing/main/playlists/kurdistan-verified.m3u
+
+Persiska, kontrollerade kanaler: https://raw.githubusercontent.com/Yahya9102/tv-testing/main/playlists/persian-verified.m3u
+
+Länkarna ovan blir tillgängliga **efter den första lyckade manuella eller schemalagda strömkontrollen** via GitHub Actions. Testerna görs från GitHubs nätverk och kan inte garantera uppspelning i IBO Player i Sverige. Ursprungliga fullständiga spellistor finns kvar.
