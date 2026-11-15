@@ -42,11 +42,11 @@ class BuilderTests(unittest.TestCase):
             {"id": "kurdistan", "name": "Kurdistan", "sources": ["url1"]},
             {"id": "iraq", "name": "Irak", "sources": ["url2"]}
         ]}
-        files, stats = build(config, fetcher=lambda url: SAMPLE)
+        files, stats = build(config, fetcher=lambda url: SAMPLE if url == "url1" else SAMPLE.replace("a.m3u8", "c.m3u8").replace("b.m3u8", "d.m3u8"))
         self.assertEqual({"all.m3u"}, set(files))
         self.assertIn('group-title="Kurdistan"', files["all.m3u"])
         self.assertIn('group-title="Irak"', files["all.m3u"])
-        self.assertEqual(2, stats["combined_unique_streams"])
+        self.assertEqual(4, stats["combined_unique_streams"])
         self.assertEqual(2, stats["groups"]["iraq"]["channels"])
 
     def test_can_select_one_channel_from_a_second_source(self):
