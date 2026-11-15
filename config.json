@@ -18,6 +18,14 @@
       ]
     },
     {
+      "id": "persian",
+      "name": "Persiska / Iran",
+      "sources": [
+        "https://iptv-org.github.io/iptv/languages/fas.m3u",
+        "https://iptv-org.github.io/iptv/countries/ir.m3u"
+      ]
+    },
+    {
       "id": "iraq",
       "name": "Irak",
       "sources": [
@@ -50,8 +58,6 @@
       "name": "Internationella",
       "sources": [
         "https://iptv-org.github.io/iptv/countries/int.m3u",
-        "https://iptv-org.github.io/iptv/regions/ww.m3u",
-        "https://iptv-org.github.io/iptv/countries/gb.m3u",
         "https://iptv-org.github.io/iptv/countries/us.m3u"
       ]
     }
