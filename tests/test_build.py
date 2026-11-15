@@ -49,6 +49,33 @@ class BuilderTests(unittest.TestCase):
         self.assertEqual(4, stats["combined_unique_streams"])
         self.assertEqual(2, stats["groups"]["iraq"]["channels"])
 
+    def test_iraqi_country_filter_excludes_other_countries(self):
+        # The second source is a global index: only IQ channels may enter Iraqiska.
+        cfg = {"groups": [{"id": "iraq", "name": "Irakiska", "sources": [
+            {"url": "global", "country_codes": ["IQ"]}
+        ]}]}
+        index = ('#EXTM3U\n'
+                 '#EXTINF:-1 tvg-country="IQ",Iraq TV\n'
+                 'https://example.com/iq.m3u8\n'
+                 '#EXTINF:-1 tvg-country="SE",Sweden TV\n'
+                 'https://example.com/se.m3u8\n')
+        files, stats = build(cfg, fetcher=lambda _: index)
+        self.assertEqual(1, stats["groups"]["iraq"]["channels"])
+        self.assertIn("Iraq TV", files["all.m3u"])
+        self.assertNotIn("Sweden TV", files["all.m3u"])
+
+    def test_iraqi_channel_also_remains_in_kurdish_category(self):
+        same = '#EXTM3U\n#EXTINF:-1,Kurdish Iraqi TV\nhttps://example.com/iq.m3u8\n'
+        cfg = {"groups": [
+            {"id": "kurdistan", "name": "Kurdiska", "sources": ["one"]},
+            {"id": "iraq", "name": "Irakiska", "sources": ["two"]}
+        ]}
+        files, stats = build(cfg, fetcher=lambda _: same)
+        self.assertEqual(2, stats["combined_unique_streams"])
+        self.assertIn('group-title="Kurdiska"', files["all.m3u"])
+        self.assertIn('group-title="Irakiska"', files["all.m3u"])
+        self.assertEqual(2, files["all.m3u"].count("https://example.com/iq.m3u8"))
+
     def test_can_select_one_channel_from_a_second_source(self):
         config = {"groups": [{"id": "kurdistan", "name": "Kurdistan", "sources": [
             "first", {"url": "second", "channel_ids": ["b"]}

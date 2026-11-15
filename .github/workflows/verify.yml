@@ -29,6 +29,9 @@ jobs:
       - name: Testa persiska strömmar i huvudlistan
         run: |
           python scripts/check_streams.py --playlist playlists/all.m3u --group Persiska --report reports/persian-health.md --json reports/persian-health.json --workers 12 --timeout 8
+      - name: Testa irakiska strömmar i huvudlistan
+        run: |
+          python scripts/check_streams.py --playlist playlists/all.m3u --group Irakiska --report reports/iraq-health.md --json reports/iraq-health.json --workers 12 --timeout 8
       - name: Publicera kontrollrapporter
         if: always()
         run: |

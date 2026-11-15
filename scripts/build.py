@@ -91,8 +91,10 @@ def render_playlist(channels: list[Channel]) -> str:
 
 def fetch_playlist(url: str, attempts: int = 3) -> str:
     parsed = urlparse(url)
-    if parsed.scheme != "https" or parsed.hostname != "iptv-org.github.io":
-        raise ValueError(f"Only trusted IPTV-org HTTPS sources are allowed: {url}")
+    trusted_iptv_org = parsed.scheme == "https" and parsed.hostname == "iptv-org.github.io"
+    trusted_free_tv = parsed.scheme == "https" and parsed.hostname == "raw.githubusercontent.com" and parsed.path == "/Free-TV/IPTV/master/playlist.m3u8"
+    if not (trusted_iptv_org or trusted_free_tv):
+        raise ValueError(f"Only trusted public IPTV source URLs are allowed: {url}")
     last_error: Exception | None = None
     for attempt in range(attempts):
         try:
@@ -161,6 +163,13 @@ def build(config: dict, fetcher=fetch_playlist, root: Path = ROOT) -> tuple[dict
                 else:
                     raw = fetcher(url)
                 downloaded = parse_m3u(raw, name)
+                if isinstance(source, dict) and source.get("country_codes"):
+                    allowed = {code.upper() for code in source["country_codes"]}
+                    downloaded = [
+                        c for c in downloaded
+                        if (country := re.search(r'tvg-country="([^"]+)"', c.info))
+                        and allowed.intersection(code.strip().upper() for code in country.group(1).split(";"))
+                    ]
                 if isinstance(source, dict) and source.get("channel_ids"):
                     wanted_ids = set(source["channel_ids"])
                     downloaded = [
@@ -197,7 +206,17 @@ def build(config: dict, fetcher=fetch_playlist, root: Path = ROOT) -> tuple[dict
         }
         all_channels.extend(own)
 
-    combined = unique_channels(all_channels)
+    # Keep the same public URL in different categories when it belongs in both.
+    # A Kurdish Iraqi station should appear in Kurdiska AND Irakiska.
+    combined: list[Channel] = []
+    seen_group_urls: set[tuple[str, str]] = set()
+    for channel in all_channels:
+        match = re.search(r'group-title="([^"]+)"', channel.info)
+        category = match.group(1) if match else ""
+        key = (category, channel.url)
+        if key not in seen_group_urls:
+            seen_group_urls.add(key)
+            combined.append(channel)
     if not combined:
         raise RuntimeError("No working source or previous playlist; refusing to replace all.m3u")
     stats["combined_unique_streams"] = len(combined)

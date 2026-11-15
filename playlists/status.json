@@ -13,8 +13,8 @@
     },
     "iraq": {
       "label": "Irakiska",
-      "channels": 58,
-      "sources": 1
+      "channels": 68,
+      "sources": 2
     },
     "arabic": {
       "label": "Arabiska",
@@ -38,6 +38,13 @@
     }
   },
   "warnings": [],
-  "source": "IPTV-org and curated public URL candidates; not live-verified",
-  "combined_unique_streams": 3256
+  "source": "Public IPTV-org and Free-TV/IPTV candidate lists; streams not individually verified",
+  "combined_unique_streams": 3266,
+  "playlist_entries": 3290,
+  "iraq_enrichment": {
+    "iptv_org_entries": 58,
+    "free_tv_iraq_entries": 14,
+    "added_to_iraqi_category": 34,
+    "already_in_iraqi_category": 34
+  }
 }
