@@ -1,18 +1,18 @@
 {
-  "updated_utc": "2026-11-15T17:29:41+00:00",
+  "updated_utc": "2026-11-15T17:44:46+00:00",
   "groups": {
     "kurdistan": {
-      "label": "Kurdistan",
+      "label": "Kurdiska",
       "channels": 59,
       "sources": 3
     },
     "persian": {
-      "label": "Persiska / Iran",
+      "label": "Persiska",
       "channels": 209,
       "sources": 2
     },
     "iraq": {
-      "label": "Irak",
+      "label": "Irakiska",
       "channels": 58,
       "sources": 1
     },
@@ -22,12 +22,12 @@
       "sources": 1
     },
     "sweden": {
-      "label": "Sverige",
+      "label": "Svenska",
       "channels": 138,
       "sources": 1
     },
     "turkey": {
-      "label": "Turkiet",
+      "label": "Turkiska",
       "channels": 178,
       "sources": 1
     },
