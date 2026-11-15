@@ -37,13 +37,15 @@ class BuilderTests(unittest.TestCase):
         self.assertEqual(2, len(unique))
         self.assertEqual('https://example.com/a.m3u8', unique[0].url)
 
-    def test_builds_six_individual_and_combined_playlists(self):
+    def test_builds_one_combined_playlist_with_categories(self):
         config = {"groups": [
             {"id": "kurdistan", "name": "Kurdistan", "sources": ["url1"]},
             {"id": "iraq", "name": "Irak", "sources": ["url2"]}
         ]}
         files, stats = build(config, fetcher=lambda url: SAMPLE)
-        self.assertEqual({"kurdistan.m3u", "iraq.m3u", "all.m3u"}, set(files))
+        self.assertEqual({"all.m3u"}, set(files))
+        self.assertIn('group-title="Kurdistan"', files["all.m3u"])
+        self.assertIn('group-title="Irak"', files["all.m3u"])
         self.assertEqual(2, stats["combined_unique_streams"])
         self.assertEqual(2, stats["groups"]["iraq"]["channels"])
 
@@ -53,7 +55,7 @@ class BuilderTests(unittest.TestCase):
         ]}]}
         files, stats = build(config, fetcher=lambda _: SAMPLE)
         self.assertEqual(2, stats["combined_unique_streams"])
-        self.assertIn("Bravo", files["kurdistan.m3u"])
+        self.assertIn("Bravo", files["all.m3u"])
 
     def test_build_local_curated_source_and_keep_remote_entries(self):
         with tempfile.TemporaryDirectory() as folder:
@@ -66,7 +68,25 @@ class BuilderTests(unittest.TestCase):
             ]}]}
             files, stats = build(cfg, fetcher=lambda _: SAMPLE, root=root)
             self.assertEqual(2, stats["groups"]["kurdistan"]["channels"])
-            self.assertIn("Alpha", files["kurdistan.m3u"])
+            self.assertIn("Alpha", files["all.m3u"])
+
+
+    def test_fallback_from_single_existing_combined_playlist(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            (root / "playlists").mkdir()
+            (root / "playlists/all.m3u").write_text(
+                '#EXTM3U\n#EXTINF:-1 group-title="Kurdistan",Legacy\n'
+                'https://example.com/legacy.m3u8\n', encoding="utf-8"
+            )
+            cfg = {"groups": [
+                {"id": "kurdistan", "name": "Kurdiska", "sources": ["broken"]}
+            ]}
+            files, stats = build(cfg, fetcher=lambda _: "bad", root=root)
+            self.assertEqual({"all.m3u"}, set(files))
+            self.assertIn("Legacy", files["all.m3u"])
+            self.assertIn('group-title="Kurdiska"', files["all.m3u"])
+            self.assertEqual(1, stats["combined_unique_streams"])
 
     def test_blocks_unsafe_local_source_path(self):
         with tempfile.TemporaryDirectory() as folder:
