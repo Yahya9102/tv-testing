@@ -80,7 +80,7 @@ class BuilderTests(unittest.TestCase):
 
     def test_rejects_bad_source_before_writing(self):
         config = {"groups": [{"id": "bad", "name": "Bad", "sources": ["url"]}]}
-        with self.assertRaisesRegex(ValueError, "does not start"):
+        with self.assertRaisesRegex(RuntimeError, "No working source or previous playlist"):
             build(config, fetcher=lambda _: "Bad response")
 
     def test_output_is_crlf_m3u_and_status_exists(self):
