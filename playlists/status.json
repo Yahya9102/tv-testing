@@ -39,5 +39,6 @@
   },
   "warnings": [],
   "source": "IPTV-org and curated public URL candidates; not live-verified",
-  "combined_unique_streams": 3256
+  "combined_unique_streams": 3256,
+  "note": "En enda publik M3U: playlists/all.m3u. Kategorier styrs av group-title."
 }

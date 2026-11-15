@@ -1,42 +1,36 @@
 # tv-testing
 
-Egna, offentliga M3U-spellistor för IBO Player, automatiska kanaluppdateringar och dagliga nätverkstester av kurdiska strömkandidater.
+En gemensam M3U-spellista med flera kategorier, avsedd för IBO Player. **Det finns bara en TV-spellista att lägga in.** Inga inloggningsuppgifter eller någon egen videoserver behövs för publika strömmar.
 
-## Direkta M3U-länkar för IBO Player
+## Lägg till i IBO Player
 
-| Spellista | URL |
-|---|---|
-| **Kurdistan** | https://raw.githubusercontent.com/Yahya9102/tv-testing/main/playlists/kurdistan.m3u |
-| **Alla kategorier** | https://raw.githubusercontent.com/Yahya9102/tv-testing/main/playlists/all.m3u |
-| Irak | https://raw.githubusercontent.com/Yahya9102/tv-testing/main/playlists/iraq.m3u |
-| Arabiska | https://raw.githubusercontent.com/Yahya9102/tv-testing/main/playlists/arabic.m3u |
-| Sverige | https://raw.githubusercontent.com/Yahya9102/tv-testing/main/playlists/sweden.m3u |
-| Turkiet | https://raw.githubusercontent.com/Yahya9102/tv-testing/main/playlists/turkey.m3u |
-| Internationella | https://raw.githubusercontent.com/Yahya9102/tv-testing/main/playlists/international.m3u |
+**Namn:** TV Testing
 
-## Automatik
+**M3U-adress:**
 
-- **Actions → Uppdatera IPTV-spellistor** bygger om listorna från IPTV-org och kuraterade källor dagligen.
-- **Actions → Kontrollera kurdiska TV-kanaler** testar HLS-manifest och segment och skriver en rapport till `reports/kurdistan-health.md`.
-- Vid första användningen kan du öppna fliken **Actions** och köra respektive workflow manuellt.
+`https://raw.githubusercontent.com/Yahya9102/tv-testing/main/playlists/all.m3u`
 
-Kurdistan-listan har en levererad uppsättning av 59 listade strömadresser, inklusive reservadresser. Det är *inte* 59 live-verifierade fungerande TV-kanaler. IBO Player kan behöva uppdateras för att läsa om spellistan.
+Lägg in den en gång med **Add Playlist**. Spelaren läser M3U-fältet `group-title` och kan sortera kanalerna i kategorierna:
 
-## Källor, begränsningar och säkerhet
+- **Kurdiska**
+- **Persiska**
+- **Irakiska**
+- **Arabiska**
+- **Svenska**
+- **Turkiska**
+- **Internationella**
 
-Adresser kommer främst från [IPTV-org](https://github.com/iptv-org/iptv) och kompletterande öppna listor. En publicerad URL är inte en garanti för drift, geografisk tillgänglighet eller rätt att återdistribuera kanalens innehåll. Projektet tillhandahåller ingen videoserver, betalkanaler, kringgående av DRM eller åtkomst till tidigare PIN-skyddat abonnemang. Lägg inte privata tokens, inloggningar eller hemliga strömlänkar i detta publika repo.
+Kategorierna finns **inne i `playlists/all.m3u`**, inte som olika spellistor. En strömadress som förekommer i flera källor placeras i första matchande kategori för att undvika dubbletter.
 
-Källor och reservadresser finns i `sources/`; automatiseringen finns i `.github/workflows/`; testerna finns i `tests/`.
+## Automatisk uppdatering och tester
 
-## Kontroll av trasiga adresser
+- `Uppdatera IPTV-spellistor` hämtar nya URL-adresser från IPTV-org var sjätte timme och bygger **bara `all.m3u`** samt statistik i `status.json`.
+- Om en källa tillfälligt är nere behåller skriptet tidigare adresser i den kategorin, i stället för att tömma listan.
+- `Kontrollera kanalernas strömadresser` försöker dagligen hämta M3U8-manifest och videosegment för de kurdiska och persiska kanalerna **i samma huvudlista**. Rapporter finns i `reports/`.
+- `Kontrollera kodtester` kör Python-enhetstester vid kodändringar. Det blockerar inte schemalagda kanaluppdateringar.
 
-- **Kodtester** körs separat via workflow "Kontrollera kodtester", utan att blockera schemalagd uppdatering.
-- **Riktiga strömtester** körs dagligen för kurdiska och persiska kanaler. GitHub testar HLS-manifest och hämtar en liten bit av ett videosegment.
-- **Verifierade spellistor** inkluderar bara adresser som nått videosegment (eller som tidigare varit verifierade men nu har ett tillfälligt timeout-/blockeringsproblem).
-- Om många kanaler fallerar samtidigt behåller vi senast publicerade verifierade lista i stället för att tömma den.
+**Viktigt:** Strömtesterna är diagnostik och tar inte automatiskt bort kanaler från huvudlistan. Att en adress fungerar från GitHubs nätverk garanterar inte uppspelning från Sverige; enstaka kanaler kan fortfarande vara döda eller geografiskt blockerade. Publicerade adresser innebär inte någon verifierad rätt att vidaresända innehållet. Undvik privata abonnemangslänkar, konton eller tokens i detta publika repo.
 
-Kurdiska, kontrollerade kanaler: https://raw.githubusercontent.com/Yahya9102/tv-testing/main/playlists/kurdistan-verified.m3u
+Källkonfiguration: `config.json` och `sources/`.
 
-Persiska, kontrollerade kanaler: https://raw.githubusercontent.com/Yahya9102/tv-testing/main/playlists/persian-verified.m3u
-
-Länkarna ovan blir tillgängliga **efter den första lyckade manuella eller schemalagda strömkontrollen** via GitHub Actions. Testerna görs från GitHubs nätverk och kan inte garantera uppspelning i IBO Player i Sverige. Ursprungliga fullständiga spellistor finns kvar.
+Senaste statistik: `playlists/status.json`.
