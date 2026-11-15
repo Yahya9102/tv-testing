@@ -124,26 +124,40 @@ def build(config: dict, fetcher=fetch_playlist, root: Path = ROOT) -> tuple[dict
     groups = config["groups"]
     files: dict[str, str] = {}
     all_channels: list[Channel] = []
-    stats = {"updated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "groups": {}, "source": "IPTV-org and curated public URL candidates; availability not tested"}
+    stats = {"updated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "groups": {}, "warnings": [], "source": "IPTV-org and curated public URL candidates; availability not tested"}
     for group in groups:
         group_id, name = group["id"], group["name"]
         if not re.fullmatch(r"[a-z0-9_-]+", group_id):
             raise ValueError(f"Unsafe group id: {group_id}")
         entries = []
         for source in group["sources"]:
-            if isinstance(source, dict) and "file" in source:
-                url = source["file"]
-                raw = read_local_source(url, root=root)
-            else:
-                url = source if isinstance(source, str) else source["url"]
-                raw = fetcher(url)
-            downloaded = parse_m3u(raw, name)
-            if isinstance(source, dict) and source.get("channel_ids"):
-                wanted_ids = set(source["channel_ids"])
-                downloaded = [c for c in downloaded if (match := re.search(r'tvg-id="([^"]+)"', c.info)) and match.group(1) in wanted_ids]
-            if not downloaded:
-                raise ValueError(f"Source {url} has no matching usable streams; aborting update")
-            entries.extend(downloaded)
+            url = source if isinstance(source, str) else source.get("file", source.get("url", "unknown"))
+            try:
+                if isinstance(source, dict) and "file" in source:
+                    raw = read_local_source(source["file"], root=root)
+                else:
+                    raw = fetcher(url)
+                downloaded = parse_m3u(raw, name)
+                if isinstance(source, dict) and source.get("channel_ids"):
+                    wanted_ids = set(source["channel_ids"])
+                    downloaded = [c for c in downloaded if (match := re.search(r'tvg-id="([^"]+)"', c.info)) and match.group(1) in wanted_ids]
+                if not downloaded:
+                    raise ValueError(f"No usable streams in {url}")
+                entries.extend(downloaded)
+            except (RuntimeError, ValueError, OSError, HTTPError, URLError, TimeoutError) as error:
+                warning = f"{group_id}: skipped {url}: {error}"
+                print("WARNING: " + warning, file=sys.stderr)
+                stats["warnings"].append(warning)
+        if not entries:
+            previous = root / "playlists" / f"{group_id}.m3u"
+            if previous.is_file():
+                try:
+                    entries = parse_m3u(previous.read_text(encoding="utf-8-sig"), name)
+                except (OSError, ValueError):
+                    entries = []
+            if not entries:
+                raise RuntimeError(f"No working source or previous playlist for {group_id}")
+            stats["warnings"].append(f"{group_id}: preserved previous playlist")
         own = unique_channels(entries)
         files[f"{group_id}.m3u"] = render_playlist(own)
         stats["groups"][group_id] = {"label": name, "channels": len(own), "sources": len(group["sources"])}
