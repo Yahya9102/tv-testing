@@ -1,0 +1,47 @@
+#EXTM3U
+#EXTINF:-1 group-title="Kurdistan",Kurdmax Sorani
+https://6476e46b58f91.streamlock.net/liveTrans/KurdmaxS0rani!/playlist.m3u8
+#EXTINF:-1 group-title="Kurdistan",Kurdmax (alternativ)
+https://6476e46b58f91.streamlock.net/liveTrans/KURDB3388/playlist.m3u8
+#EXTINF:-1 group-title="Kurdistan",Kurdmax Show
+https://6476e46b58f91.streamlock.net/liveTrans/SHOW1/playlist.m3u8
+#EXTINF:-1 group-title="Kurdistan",Kurdmax Show (alternativ)
+https://6476e46b58f91.streamlock.net/liveTrans/SHOW2/playlist.m3u8
+#EXTINF:-1 group-title="Kurdistan",Kurdmax Music
+https://6476e46b58f91.streamlock.net/music/livestream/playlist.m3u8
+#EXTINF:-1 group-title="Kurdistan",Kurdmax Music (alternativ)
+https://5aa8c7549bfa9.streamlock.net/music/livestream/playlist.m3u8
+#EXTINF:-1 group-title="Kurdistan",Kurdsat (reservkälla)
+https://iko-live.akamaized.net/KurdsatTV/master.m3u8
+#EXTINF:-1 group-title="Kurdistan",Kurdsat (reservkälla 2)
+https://kurdsat.akamaized.net/hls/kurdsat.m3u8
+#EXTINF:-1 group-title="Kurdistan",Kurdsat News (reservkälla)
+https://kurdsat-news.akamaized.net/hls/stream_0.m3u8
+#EXTINF:-1 group-title="Kurdistan",Kurdistan 24 (reservkälla)
+https://d1x82nydcxndze.cloudfront.net/live/index_720p25.m3u8
+#EXTINF:-1 group-title="Kurdistan",Rudaw (reservkälla)
+https://svs.itworkscdn.net/rudawlive/rudawlive.smil/playlist.m3u8
+#EXTINF:-1 group-title="Kurdistan",Speda TV
+https://s1.ettehadlive.com/live/79/chunklist.m3u8
+#EXTINF:-1 group-title="Kurdistan",Gali Kurdistan TV
+https://live.host247.net/gk/gksat/playlist.m3u8
+#EXTINF:-1 group-title="Kurdistan",Kirkuk Satellite TV
+https://live.kirkuklive.live/hls/stream/index.m3u8
+#EXTINF:-1 group-title="Kurdistan",Zarok TV (Sorani)
+https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
+#EXTINF:-1 group-title="Kurdistan",Zarok TV (alternativ)
+https://iko-live.akamaized.net/ZarokTV/master.m3u8
+#EXTINF:-1 group-title="Kurdistan",AVA Family
+https://familyhls.avatv.live/hls/stream.m3u8
+#EXTINF:-1 group-title="Kurdistan",Welat TV
+https://stream.badinan.xyz/welat/tv/playlist.m3u8
+#EXTINF:-1 group-title="Kurdistan",Khak TV
+http://bblserver.ddns.net:1935/stream/khakhd/playlist.m3u8
+#EXTINF:-1 group-title="Kurdistan",Nubar TV
+http://stream.nubar.tv:1935/private/NUBARtv/playlist.m3u8
+#EXTINF:-1 group-title="Kurdistan",Net TV
+https://5ab29cc78f681.streamlock.net/teratargetvideostream2nd/livestream/playlist.m3u8
+#EXTINF:-1 group-title="Kurdistan",Newline HD TV
+http://newline.teradek.live:1935/live/linehd/playlist.m3u8
+#EXTINF:-1 group-title="Kurdistan",UTV Hawler
+http://utv.teradek.live:1935/live/utvhd/playlist.m3u8

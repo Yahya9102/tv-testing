@@ -1,0 +1,59 @@
+{
+  "description": "Egna M3U-listor med alla IPTV-org kurdiska kanaler och en separat kuraterad fil för ytterligare kurdiska strömkandidater. Inte en tillgänglighetsgaranti.",
+  "groups": [
+    {
+      "id": "kurdistan",
+      "name": "Kurdistan",
+      "sources": [
+        "https://iptv-org.github.io/iptv/languages/kur.m3u",
+        {
+          "url": "https://iptv-org.github.io/iptv/countries/iq.m3u",
+          "channel_ids": [
+            "ZagrosTV.iq@SD"
+          ]
+        },
+        {
+          "file": "sources/kurdish-extra.m3u"
+        }
+      ]
+    },
+    {
+      "id": "iraq",
+      "name": "Irak",
+      "sources": [
+        "https://iptv-org.github.io/iptv/countries/iq.m3u"
+      ]
+    },
+    {
+      "id": "arabic",
+      "name": "Arabiska",
+      "sources": [
+        "https://iptv-org.github.io/iptv/languages/ara.m3u"
+      ]
+    },
+    {
+      "id": "sweden",
+      "name": "Sverige",
+      "sources": [
+        "https://iptv-org.github.io/iptv/countries/se.m3u"
+      ]
+    },
+    {
+      "id": "turkey",
+      "name": "Turkiet",
+      "sources": [
+        "https://iptv-org.github.io/iptv/countries/tr.m3u"
+      ]
+    },
+    {
+      "id": "international",
+      "name": "Internationella",
+      "sources": [
+        "https://iptv-org.github.io/iptv/countries/int.m3u",
+        "https://iptv-org.github.io/iptv/regions/ww.m3u",
+        "https://iptv-org.github.io/iptv/countries/gb.m3u",
+        "https://iptv-org.github.io/iptv/countries/us.m3u"
+      ]
+    }
+  ]
+}

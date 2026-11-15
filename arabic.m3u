@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="2M.ma@SD" group-title="Arabiska",2M
+http://185.9.2.18/chid_218/index.m3u8
+#EXTINF:-1 tvg-id="AbdulmajeedAbdullah.sa@SD" group-title="Arabiska",Abdulmajeed Abdullah
+https://d2hng5r56zpsbw.cloudfront.net/out/v1/9c4c990f44bb4767bb46271f326dd574/index.m3u8
+#EXTINF:-1 tvg-id="AghaniAghaniTV.lb@SD" group-title="Arabiska",Aghani Aghani TV
+https://cdn.streamlane.tv/hls/aghanitv/index.m3u8
+#EXTINF:-1 tvg-id="AghapyTV.eg@SD" group-title="Arabiska",Aghapy TV
+https://5b622f07944df.streamlock.net/aghapy.tv/aghapy.smil/playlist.m3u8

@@ -1,0 +1,17 @@
+#EXTM3U
+#EXTINF:-1 group-title="Kurdistan",NRT 2 (äldre källa)
+http://185.105.4.210:1935/nrt2/ngrp:livestream_all/playlist.m3u8
+#EXTINF:-1 group-title="Kurdistan",KNN (äldre källa)
+http://51.254.209.160:1935/live/_definst_/livestream/playlist.m3u8
+#EXTINF:-1 group-title="Kurdistan",GEM Kurd (äldre källa)
+http://63.237.48.28/ios/GEM_KURD/GEM_KURD.m3u8
+#EXTINF:-1 group-title="Kurdistan",Kurdmax Pepule (äldre källa)
+http://31.14.40.139:1935/liveTrans/Pepule/playlist.m3u8
+#EXTINF:-1 group-title="Kurdistan",Kurdmax Pepule Kurmanci (äldre källa)
+http://31.14.40.139:1935/liveTrans/Kurmanci/playlist.m3u8
+#EXTINF:-1 group-title="Arkiv - overifierad",Kurdmax Kurmanci (äldre tredjepartskälla)
+https://www.karwan1.de/karwan.tv/kurdmax-kurmanci/chunks.m3u8
+#EXTINF:-1 group-title="Arkiv - overifierad",Kurdmax Show Kurmanci (äldre tredjepartskälla)
+https://www.karwan1.de/karwan.tv/kurdmax-show-kurmanci/chunks.m3u8
+#EXTINF:-1 group-title="Arkiv - overifierad",Kurdmax Pepule Kurmanci (äldre tredjepartskälla)
+https://www.karwan1.de/karwan.tv/kurdmax-pepule-kurmanci/chunks.m3u8
