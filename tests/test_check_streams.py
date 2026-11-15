@@ -7,6 +7,19 @@ class CheckStreamTests(unittest.TestCase):
         got = read_channels('#EXTM3U\n#EXTINF:-1,Channel One\nhttps://example.com/live.m3u8\n')
         self.assertEqual(got, [('Channel One', 'https://example.com/live.m3u8')])
 
+    def test_filter_group_from_shared_playlist(self):
+        combined = """#EXTM3U
+#EXTINF:-1 group-title="Kurdiska",Rudaw
+https://example.com/rudaw.m3u8
+#EXTINF:-1 group-title="Persiska",Persian TV
+https://example.com/persian.m3u8
+"""
+        self.assertEqual(
+            [('Rudaw', 'https://example.com/rudaw.m3u8')],
+            read_channels(combined, group="Kurdiska")
+        )
+        self.assertEqual(2, len(read_channels(combined)))
+
     def test_master_variant_and_segment(self):
         hits = []
         def fetcher(url, timeout, *, limit=384*1024):
