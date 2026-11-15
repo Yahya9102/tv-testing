@@ -3,7 +3,7 @@ name: Uppdatera IPTV-spellistor
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 */6 * * *' # var sjätte timme UTC
+    - cron: '17 4 * * *' # dagligen 04:17 UTC
   push:
     paths:
       - 'scripts/**'
