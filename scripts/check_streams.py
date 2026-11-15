@@ -22,7 +22,7 @@ USER_AGENT = "Mozilla/5.0 (compatible; family-iptv-healthcheck/1.0)"
 LIMIT = 384 * 1024
 
 
-def read_channels(text: str) -> list[tuple[str, str]]:
+def read_channels(text: str, group: str | None = None) -> list[tuple[str, str]]:
     if not text.lstrip("\ufeff \r\n\t").startswith("#EXTM3U"):
         raise ValueError("Inte en giltig M3U-spellista")
     result = []
@@ -30,7 +30,9 @@ def read_channels(text: str) -> list[tuple[str, str]]:
     for raw in text.splitlines():
         line = raw.strip()
         if line.startswith("#EXTINF:"):
-            title = line.rsplit(",", 1)[-1].strip() or "Okänd kanal"
+            matched = re.search(r'group-title="([^"]*)"', line)
+            category = matched.group(1) if matched else None
+            title = (line.rsplit(",", 1)[-1].strip() or "Okänd kanal") if group is None or category == group else None
         elif title and line and not line.startswith("#"):
             parts = urlsplit(line)
             if parts.scheme in ("http", "https") and parts.hostname and not (parts.username or parts.password):
@@ -125,7 +127,7 @@ def markdown(rows: list[dict], checked_at: str) -> str:
     groups = ["MEDIA_NÅBAR", "SPELLISTA_NÅBAR", "BLOCKERAD", "SAKNAS", "OSÄKER", "FEL"]
     counts = {key: sum(r["status"] == key for r in rows) for key in groups}
     out = [
-        "# Kontroll av kurdiska IPTV-kanaler",
+        "# Kontroll av IPTV-kanaler",
         "",
         f"Körd (UTC): **{checked_at}**",
         "",
@@ -153,9 +155,10 @@ def main() -> int:
     parser.add_argument("--json", type=Path, default=ROOT / "reports/kurdistan-health.json")
     parser.add_argument("--timeout", type=float, default=8.0)
     parser.add_argument("--workers", type=int, default=8)
+    parser.add_argument("--group", default=None, help="Endast denna M3U group-title")
     args = parser.parse_args()
     try:
-        channels = read_channels(args.playlist.read_text(encoding="utf-8-sig"))
+        channels = read_channels(args.playlist.read_text(encoding="utf-8-sig"), group=args.group)
         if not channels:
             raise ValueError("Inga kanaler hittades")
         with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, min(args.workers, 16))) as pool:
