@@ -1,0 +1,1259 @@
+{
+  "checked_at_utc": "2026-11-16T19:38:46+00:00",
+  "results": [
+    {
+      "name": "4Kurd",
+      "url": "https://4kuhls.persiana.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "4 Music",
+      "url": "https://musichls.persiana.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "4U TV (720p)",
+      "url": "https://hls.4utv.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "247 Box TV",
+      "url": "https://hls.247box.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Abadan TV",
+      "url": "https://ncdn.telewebion.ir/abadan/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Aflak TV",
+      "url": "https://ncdn.telewebion.ir/aflak/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "AFN TV (720p)",
+      "url": "https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Afra Film",
+      "url": "https://afrafhls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Afra Series",
+      "url": "https://afrashls.wns.live/hls/stream.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Aftab TV",
+      "url": "https://ncdn.telewebion.ir/aftab/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Al-Mahdi TV (1080p)",
+      "url": "https://iptv.almahditv.com/almahditv/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Alborz TV",
+      "url": "https://ncdn.telewebion.ir/alborz/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Amouzesh TV",
+      "url": "https://ncdn.telewebion.ir/amouzesh/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Ara TV",
+      "url": "https://ncdn.telewebion.ir/ara/live/playlist.m3u8",
+      "status": "FEL",
+      "reason": "Servern returnerade inte M3U8"
+    },
+    {
+      "name": "Arax TV",
+      "url": "https://araxhls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Arko TV",
+      "url": "https://arkhls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Arvan TV",
+      "url": "https://arvhls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Atrak TV",
+      "url": "https://ncdn.telewebion.ir/atrak/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Atrina TV",
+      "url": "https://atrihls.wns.live/hls/stream.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "AVA Family",
+      "url": "https://familyhls.avatv.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "AVA Series",
+      "url": "https://avaserieshls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Avang TV (1080p)",
+      "url": "https://hls.avang.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Baran TV",
+      "url": "https://ncdn.telewebion.ir/baran/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "BBC Persian (1080p)",
+      "url": "https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/hevc_iptv_mse_v0.mpd",
+      "status": "FEL",
+      "reason": "Servern returnerade inte M3U8"
+    },
+    {
+      "name": "Boushehr TV",
+      "url": "https://ncdn.telewebion.ir/bushehr/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Bravo Farsi TV (360p)",
+      "url": "https://bravoohls.wns.live/hls/stream.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Cafe Film",
+      "url": "https://cafefhls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Cafe Trade TV",
+      "url": "https://cafetradehls.wns.live/hls/stream.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Channel One (United States)",
+      "url": "https://pemirateshls.persiana.live/hls/stream.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Classic TV",
+      "url": "https://clshls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Datis TV",
+      "url": "https://ronhls.wns.live/hls/stream.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Dena TV",
+      "url": "https://ncdn.telewebion.ir/dena/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Didgah TV (576p)",
+      "url": "https://media.streambrothers.com:1936/8276/8276/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Ekran Movies",
+      "url": "https://ca-rt.onetv.app/EkranMovies/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "Energy",
+      "url": "https://ncdn.telewebion.ir/baenergy/live/playlist.m3u8",
+      "status": "FEL",
+      "reason": "Servern returnerade inte M3U8"
+    },
+    {
+      "name": "EPlanet TV",
+      "url": "https://eplhls.wns.live/hls/stream.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Erfan Halgheh TV (720p)",
+      "url": "https://hls.erfanhalgheh.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Eshragh Network",
+      "url": "https://ncdn.telewebion.ir/eshragh/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Fars TV",
+      "url": "https://ncdn.telewebion.ir/fars/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "FX 1",
+      "url": "https://fxtvhls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "FX 2",
+      "url": "https://toonixhls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Ganj e Hozour TV (1080p)",
+      "url": "https://media.parvizshahbazi.com/ganjehozour/Main_tv/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "GEM 24B",
+      "url": "https://ca-rt.onetv.app/gem24b/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM Bollywood",
+      "url": "https://ca-rt.onetv.app/gembollywood/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM Classic",
+      "url": "https://ca-rt.onetv.app/gemclassic/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM Comedy",
+      "url": "https://ca-rt.onetv.app/gemcomedy/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM Drama",
+      "url": "https://ca-rt.onetv.app/gemdrama/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM Drama +",
+      "url": "https://ca-rt.onetv.app/gemdramaplus/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM Entertainment",
+      "url": "https://ca-rt.onetv.app/gementertainment/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM Film",
+      "url": "https://ca-rt.onetv.app/gemfilm/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM Fit",
+      "url": "https://ca-rt.onetv.app/gemfit/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM Food",
+      "url": "https://ca-rt.onetv.app/gemfood/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM Junior",
+      "url": "https://ca-rt.onetv.app/gemjunior/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM Kids",
+      "url": "https://ca-rt.onetv.app/gemkids/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM Life",
+      "url": "https://ca-rt.onetv.app/gemlife/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM Mifa",
+      "url": "https://ca-rt.onetv.app/gemmifa/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM Mifa +",
+      "url": "https://ca-rt.onetv.app/gemmifaplus/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM Nature",
+      "url": "https://ca-rt.onetv.app/gemnature/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM Onyx",
+      "url": "https://ca-rt.onetv.app/gemonyx/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM Pixel",
+      "url": "https://glserver1.tamashaland.com/live/aBCH96886YznRbGOiqTnnQ__/stream_0.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "GEM River",
+      "url": "https://ca-rt.onetv.app/gemriver/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM River +",
+      "url": "https://ca-rt.onetv.app/gemriverplus/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM Rubix",
+      "url": "https://ca-rt.onetv.app/gemrubix/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM Rubix +",
+      "url": "https://ca-rt.onetv.app/gemrubixplus/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM Series +",
+      "url": "https://ca-rt.onetv.app/gemseriesplus/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM Sport",
+      "url": "https://steep-wildflower-284d.nhhwkiszzzvcuojxdo.workers.dev/?url=https://gg.hls2.xyz/live/IR+-+GEM+Sport/chunks.m3u8",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM TV",
+      "url": "https://ca-rt.onetv.app/gem/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "GEM TV +",
+      "url": "https://ca-rt.onetv.app/gemtvplus/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "Gold Star",
+      "url": "https://moviethls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Golkhane Tv",
+      "url": "https://ncdn.telewebion.ir/golkhane/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Grand Cinema",
+      "url": "https://gcinemahls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Habib TV",
+      "url": "https://ncdn.telewebion.ir/habib/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Hamedan TV",
+      "url": "https://ncdn.telewebion.ir/sina/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Hamoon TV",
+      "url": "https://ncdn.telewebion.ir/hamoon/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "High Vision TV (1080p) [Not 24/7]",
+      "url": "https://streamer1.connectto.com/HIGHVISION_WEB_1205/index.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "HodHod Farsi TV (1080p)",
+      "url": "https://northtelecom.b-cdn.net/hodhodtv.m3u8",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "HomePlus",
+      "url": "https://homeplushls.wns.live/hls/stream.m3u8",
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "ICC plus (1080p)",
+      "url": "https://icchls.wns.live/hls/stream.m3u8",
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "ICnet 1",
+      "url": "https://icnet1hls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "ICnet 2",
+      "url": "https://icnet2hls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "icnet 3",
+      "url": "https://ic3hls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "iFilm 2",
+      "url": "https://live.presstv.co.uk/hls/ifilm2.m3u8",
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "iFilm Persian",
+      "url": "https://live.presstv.co.uk/hls/ifilmfa.m3u8",
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Ilam TV",
+      "url": "https://ncdn.telewebion.ir/ilam/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Imam Hussein TV 1 (1080p)",
+      "url": "http://fa.imamhossaintv.com/live/ih1.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Imam Hussein TV 6 (1080p)",
+      "url": "http://live.imamhossaintv.com/live/ih6.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Iran International (1080p)",
+      "url": "https://hlspackager.akamaized.net/live/DB/IRAN_INTERNATIONAL/HLS/IRAN_INTERNATIONAL.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Iran Jewish TV (720p)",
+      "url": "http://iran620.com:1935/live/IranJewishTv/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Iran Nama",
+      "url": "https://iran613hls.wns.live/hls/stream.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Iran National Revolution TV",
+      "url": "https://hls.irannrtv.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Iran Press",
+      "url": "https://live.presstv.ir/hls/presstv_5_482/index.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "IraneFarda TV",
+      "url": "https://iranefardalive.com/stream/live.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "IRIB 1",
+      "url": "https://ncdn.telewebion.ir/tv1/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "IRIB 2",
+      "url": "https://ncdn.telewebion.ir/tv2/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "IRIB 3",
+      "url": "https://ncdn.telewebion.ir/tv3/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "IRIB 4",
+      "url": "https://ncdn.telewebion.ir/tv4/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "IRIB Mostanad",
+      "url": "https://ncdn.telewebion.ir/mostanad/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "IRIB Omid",
+      "url": "https://ncdn.telewebion.ir/omid/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "IRIB UHD (2160p)",
+      "url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "IRINN 2",
+      "url": "https://ncdn.telewebion.ir/irinn2/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "IRINN (576p)",
+      "url": "http://185.9.2.18/chid_926/index.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Isfahan TV",
+      "url": "https://ncdn.telewebion.ir/esfahan/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Jahanbin TV",
+      "url": "https://ncdn.telewebion.ir/jahanbin/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Kalemeh TV",
+      "url": "https://kalemeh.tv/live/hls/gate.php?p=/live/ngrp:kalemeh_all/playlist.m3u8",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "Kanal Jadid",
+      "url": "https://kjhls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Kerman TV",
+      "url": "https://ncdn.telewebion.ir/kerman/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Khalij-e Fars TV",
+      "url": "https://ncdn.telewebion.ir/khalijefars/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Khavaran TV",
+      "url": "https://ncdn.telewebion.ir/khavaran/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Khorasan Razavi TV",
+      "url": "https://ncdn.telewebion.ir/khorasanrazavi/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Khozestan TV",
+      "url": "https://ncdn.telewebion.ir/khoozestan/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Kish TV",
+      "url": "https://ncdn.telewebion.ir/kish/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Kordestan TV",
+      "url": "https://ncdn.telewebion.ir/kordestan/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "LabbaykTV",
+      "url": "https://ncdn.telewebion.ir/labbayk/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "LoveWorld Persia (720p)",
+      "url": "https://cdn3.wowza.com/5/aVJETlF0UFdmYTFu/LWPP/ngrp:persia.stream_all/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Maah TV (720p)",
+      "url": "https://hls.maahtv.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Mahabad TV",
+      "url": "https://ncdn.telewebion.ir/mahabad/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Manoto",
+      "url": "https://ca-rt.onetv.app/manototv/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "Marjaeyat TV Persian (240p) [Not 24/7]",
+      "url": "https://livefa.marjaeyattv.com/mtv_fa/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "MBC Persia (1080p)",
+      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-persia/818ee8e4b592dc497608f066d825bfb4/index.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Meta Film TV",
+      "url": "https://metafilmhls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Mihan TV",
+      "url": "https://iptv.mihantv.com/mihantv/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Mohabat TV (Iran) (540p)",
+      "url": "http://204.11.235.251:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8",
+      "status": "SPELLISTA_NÅBAR",
+      "reason": "M3U8 svarar men inga vanliga segment hittades"
+    },
+    {
+      "name": "Mohabat TV (United States) (540p)",
+      "url": "http://media.mohabat.tv:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8",
+      "status": "SPELLISTA_NÅBAR",
+      "reason": "M3U8 svarar men inga vanliga segment hittades"
+    },
+    {
+      "name": "MTC",
+      "url": "https://mtchls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Namayesh TV",
+      "url": "https://ncdn.telewebion.ir/namayesh/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Nasim",
+      "url": "https://ncdn.telewebion.ir/nasim/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "National Iranian Congress TV",
+      "url": "https://tv.iraniancongress.com/stream/tv.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Navahang TV (720p)",
+      "url": "https://hls.navahang.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "NewFlix",
+      "url": "https://newfhls.wns.live/hls/stream.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Noor TV (Iran)",
+      "url": "https://ncdn.telewebion.ir/noor/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Nour TV",
+      "url": "https://cdn.bestream.io:19360/elfaro4/elfaro4.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Ofogh TV",
+      "url": "https://ncdn.telewebion.ir/ofogh/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Omid e Iran TV",
+      "url": "https://oitnhls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "OXIR TV",
+      "url": "https://hls.oxir.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Palestinetv",
+      "url": "https://ncdn.telewebion.ir/palestine/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Pars TV",
+      "url": "https://parshls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Payam Javan TV (720p) [Not 24/7]",
+      "url": "https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Payame Aramesh TV (720p)",
+      "url": "https://hls.keshishhamid.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Payvand TV (Iran) (720p) [Not 24/7]",
+      "url": "https://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "PBC Tapesh TV (720p)",
+      "url": "https://iptv.tapesh.tv/tapesh/playlist.m3u8",
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Persiana Cinema",
+      "url": "https://cinehls.persiana.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Persiana Comedy",
+      "url": "https://comedyhls.persiana.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Persiana Docs",
+      "url": "https://scihls.persiana.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Persiana Family",
+      "url": "https://familyhls.persiana.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Persiana Fight",
+      "url": "https://fighthls.persiana.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Persiana Folk",
+      "url": "https://sonhls.persiana.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Persiana Iranian",
+      "url": "https://irhls.persiana.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Persiana Junior",
+      "url": "https://junhls.persiana.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Persiana Korea",
+      "url": "https://korhls.persiana.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Persiana Latino",
+      "url": "https://latinohls.persiana.live/hls/stream.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Persiana Medical",
+      "url": "https://phd2hls.persiana.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Persiana Nostalgia",
+      "url": "https://noshls.persiana.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Persiana Plus",
+      "url": "https://euhls.persiana.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Persiana Reality",
+      "url": "https://twohls.persiana.live/hls/stream.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Persiana Series",
+      "url": "https://onehls.persiana.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Persiana Teen",
+      "url": "https://kphls.persiana.live/hls/stream.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Persiana Travel",
+      "url": "https://ptravelhls.persiana.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Persiana Turkiye",
+      "url": "https://turkhls.persiana.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Persiana Vibe",
+      "url": "https://raphls.persiana.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "PMC",
+      "url": "https://pmchls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "PMC Royale (1080p)",
+      "url": "https://pmcrohls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Pooya TV",
+      "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-iribpooya/tracks-v1a1/mono.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Pooya TV Plus",
+      "url": "https://ncdn.telewebion.ir/javaneh/live/playlist.m3u8",
+      "status": "FEL",
+      "reason": "Servern returnerade inte M3U8"
+    },
+    {
+      "name": "Qazvin TV",
+      "url": "https://ncdn.telewebion.ir/qazvin/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Quran TV (Iran)",
+      "url": "https://ncdn.telewebion.ir/quran/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "RasoulallahTv (1080p)",
+      "url": "https://avr.host247.net/live/rasoulallahtv/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Razavi TV",
+      "url": "https://ncdn.telewebion.ir/razavi/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "RJTV (1080p)",
+      "url": "https://rjtvhls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Roya TV (Iran)",
+      "url": "https://ncdn.telewebion.ir/iribu/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Sabalan TV",
+      "url": "https://ncdn.telewebion.ir/sabalan/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Sabz TV",
+      "url": "https://ncdn.telewebion.ir/sabz/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Sahand TV",
+      "url": "https://ncdn.telewebion.ir/sahand/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Salamat TV",
+      "url": "https://ncdn.telewebion.ir/salamat/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Sarbedaran TV",
+      "url": "https://ncdn.telewebion.ir/sarbedaran/live/playlist.m3u8",
+      "status": "FEL",
+      "reason": "Servern returnerade inte M3U8"
+    },
+    {
+      "name": "Sat 7 Pars",
+      "url": "https://sat7phls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Semnan TV",
+      "url": "https://ncdn.telewebion.ir/semnan/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Sepehr TV",
+      "url": "https://ncdn.telewebion.ir/sepehr/live/playlist.m3u8",
+      "status": "FEL",
+      "reason": "Servern returnerade inte M3U8"
+    },
+    {
+      "name": "Shabakeh 7",
+      "url": "https://sh7hls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Simaye Azadi (1080p)",
+      "url": "https://simaytv.akamaized.net/hls/live/2043550/simayhls/index.m3u8",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "SL 1",
+      "url": "https://slonehls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "SL 2",
+      "url": "https://sltwohls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "SNN TV [Not 24/7]",
+      "url": "https://live2.snn.ir/hls/snn2_hd720/index.m3u8",
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "T2 Movies",
+      "url": "https://ca-rt.onetv.app/T2Movies/index-0.m3u8?token=onetv202",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "T2 TV",
+      "url": "https://t2hls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Tabarestan TV",
+      "url": "https://ncdn.telewebion.ir/tabarestan/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Tamasha",
+      "url": "https://ncdn.telewebion.ir/hdtest/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Tapesh 2",
+      "url": "https://maxtvhls.wns.live/hls/stream.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "TBN Nejat TV",
+      "url": "https://hls.nejat.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Tehran TV",
+      "url": "https://ncdn.telewebion.ir/tehran/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Tekyemadahi",
+      "url": "https://ncdn.telewebion.ir/tekyemadahi/live/playlist.m3u8",
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Tin TV (720p)",
+      "url": "https://tulixcdn.akamaized.net/tintv6/tintv/tintv/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "TM TV (United States) (720p)",
+      "url": "https://hls.tmtv.live/hls/stream.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "TV ITN",
+      "url": "https://itnhls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "TVA Nava",
+      "url": "https://ncdn.telewebion.ir/nava/live/playlist.m3u8",
+      "status": "FEL",
+      "reason": "Servern returnerade inte M3U8"
+    },
+    {
+      "name": "Varzesh TV",
+      "url": "https://ncdn.telewebion.ir/varzesh/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Velayat TV",
+      "url": "https://ncdn.telewebion.ir/velayat/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Velayat TV Network (480p)",
+      "url": "https://nl.livekadeh.com/hls2/velayattv.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "VoA TV Persian (1080p)",
+      "url": "https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "West Azerbaijan TV",
+      "url": "https://ncdn.telewebion.ir/azarbayjangharbi/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Yazd TV",
+      "url": "https://ncdn.telewebion.ir/taban/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "YourTime TV",
+      "url": "https://hls.yourtime.live/hls/stream.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Zagros TV (Iran)",
+      "url": "https://ncdn.telewebion.ir/zagros/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Al Wilayah (720p)",
+      "url": "https://nl.livekadeh.com/hls2/alwilayah_tv.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Asil TV (576p)",
+      "url": "https://live.asil.tv/asiltv/index.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "iFilm Arabic",
+      "url": "https://live.presstv.co.uk/hls/ifilmar.m3u8",
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "iFilm English",
+      "url": "https://live.presstv.co.uk/hls/ifilmen.m3u8",
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Press TV (720p)",
+      "url": "https://cloud.odysee.live/content/26bcbcc342a5b143578f27dbfaf000201f06e417/master.m3u8",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "Press TV French (1080p)",
+      "url": "https://live4.presstv.ir/live/smil:presstvfr.smil/playlist.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "WiseHumanTv (1080p)",
+      "url": "https://avr.host247.net/live/WiseHumanTv/playlist.m3u8",
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
+    }
+  ]
+}

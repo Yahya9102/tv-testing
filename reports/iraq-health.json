@@ -1,0 +1,413 @@
+{
+  "checked_at_utc": "2026-11-16T19:39:02+00:00",
+  "results": [
+    {
+      "name": "ABNsat (720p)",
+      "url": "https://mediaserver.abnvideos.com/streams/abnsat.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Afaq TV",
+      "url": "https://stream.afaq.iq/live/channel/afaqtv/playlist.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Afarin Baxcha (1080p)",
+      "url": "https://5dcabf026b188.streamlock.net/afarinTV/livestream/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Afarin TV (720p) [Not 24/7]",
+      "url": "https://65f16f0fdfc51.streamlock.net/afarinTV/livestream/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Al Iraqia (1080p)",
+      "url": "https://imn-live.esite-lab.com/hls/iraqia-general.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Al Iraqia Kurdish (720p)",
+      "url": "https://imn-live.esite-lab.com/hls/iraqia-kurdish.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Al Iraqia News (720p)",
+      "url": "https://imn-live.esite-lab.com/hls/iraqia-news.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Al Iraqia Sport (720p)",
+      "url": "https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Al Janoub TV",
+      "url": "https://live.alissahost.net/hls/test.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Al Rasheed TV (1080p) [Not 24/7]",
+      "url": "https://media1.livaat.com/static/AL-RASHEED-HD/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Al Sharqiya (1080p)",
+      "url": "http://185.9.2.18/chid_144/index.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Al Sharqiya News (1080p)",
+      "url": "https://indexforce.com/newshighres/mystream/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Al-Aimma TV (1080p)",
+      "url": "https://alaimma.tv/live/index.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Al-Jawadain TV (1080p) [Not 24/7]",
+      "url": "https://live.aljawadain.org/live/aljawadaintv/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Al-Naeem TV",
+      "url": "http://37.238.136.61/hls/stream.m3u8",
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Alabbassia TV (1080p)",
+      "url": "https://stream.alabbassia.com/live/alabbassia/index.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Alawla TV (720p)",
+      "url": "https://live.alawla.tv/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Alghadeer TV (1080p)",
+      "url": "https://sd343444.vodu.store:3356/live/Alghadeer/index.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Alquran (1080p)",
+      "url": "https://ktvlive.online/stream/hls/ch1.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Amozhgary TV",
+      "url": "https://app-live.org/live/3268334b/index.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Anwar TV2 (720p)",
+      "url": "https://cloud.odysee.live/content/f92670235a1ce2bce4cf77671cc4dcc2188baa1d/master.m3u8",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "AVA Family",
+      "url": "https://familyhls.avatv.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "AVA Media (1080p)",
+      "url": "http://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV-avc1_2500000=10002,mp4a_128000=20000.m3u8",
+      "status": "FEL",
+      "reason": "HTTP 400"
+    },
+    {
+      "name": "Avar TV (1080p)",
+      "url": "https://avr.host247.net/live/AvarTv/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "BeitolAbbas TV Channel (720p)",
+      "url": "https://live.beitolabbas.tv/live/beitolabbastv.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Channel8 (720p)",
+      "url": "https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Dijlah TV (1080p)",
+      "url": "https://ghaasiflu.online/Dijlah/index.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "EmanTv (1080p)",
+      "url": "https://avr.host247.net/live/emantv/playlist.m3u8",
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "FarmodaTV (1080p)",
+      "url": "https://avr.host247.net/live/FarmodaTV/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "I News (1080p)",
+      "url": "https://live.i-news.tv/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Imam Hussein TV 1 (1080p)",
+      "url": "http://fa.imamhossaintv.com/live/ih1.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Imam Hussein TV 2 (1080p)",
+      "url": "http://ar.imamhossaintv.com/live/ih2.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Imam Hussein TV 3 (1080p)",
+      "url": "http://en.imamhossaintv.com/live/ih3.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Imam Hussein TV 4 (1080p)",
+      "url": "http://ur.imamhossaintv.com/live/ih4.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Imam Hussein TV 5 (720p)",
+      "url": "http://live.al-zahratv.com/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Imam Hussein TV 6 (1080p)",
+      "url": "http://live.imamhossaintv.com/live/ih6.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Iraq Future (480p)",
+      "url": "https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_040/Stream/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Ishtar TV SD (1080p)",
+      "url": "https://stream.ishtartv.com/live/iShtarHD/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Karbala Documentary",
+      "url": "https://ktvlive.online/stream/hls/ch3.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Kurd Channel",
+      "url": "https://kurdchhls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Kurdistan 24 (1080p)",
+      "url": "https://hlspackager.akamaized.net/live/DB/K24/HLS/K24.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Kurdistan TV (720p) [Not 24/7]",
+      "url": "https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Kurdsat (1080p)",
+      "url": "https://hlspackager.akamaized.net/live/DB/KURDSAT_HD/HLS/KURDSAT_HD.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Kurdsat News (1080p)",
+      "url": "https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Manu Chat",
+      "url": "https://vmi747311.contaboserver.net/hls/livetv.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Marjaeyat TV Arabic (1080p)",
+      "url": "https://livefa.marjaeyattv.com/mtv_ar/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Marjaeyat TV English (1080p)",
+      "url": "https://livefa.marjaeyattv.com/mtv_en/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Marjaeyat TV Persian (240p) [Not 24/7]",
+      "url": "https://livefa.marjaeyattv.com/mtv_fa/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "MBC Iraq (1080p)",
+      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Mixkurdy (1080p)",
+      "url": "https://avr.host247.net/live/Mix-kurdy/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "NRT TV (720p) [Not 24/7]",
+      "url": "https://media.streambrothers.com:1936/8226/8226/playlist.m3u8",
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Payam TV (1080p)",
+      "url": "https://hlspackager.akamaized.net/live/DB/PAYAM_TV/HLS/PAYAM_TV.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Rudaw TV (1080p)",
+      "url": "https://hlspackager.akamaized.net/live/DB/RUDAW/HLS/RUDAW.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Samarra TV",
+      "url": "https://live.bradosti.net/live/samaraweb_playlist.m3u8",
+      "status": "FEL",
+      "reason": "HTTP 500"
+    },
+    {
+      "name": "Shams TV (Iraq) (1080p)",
+      "url": "https://stream.shams.tv/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "UTV (Iraq) (1080p)",
+      "url": "https://utviraqi-live.lg.mncdn.com/utviraqi-live/64c80359/index.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Waar TV (1080p)",
+      "url": "https://hlspackager.akamaized.net/live/DB/WAAR_HD/HLS/WAAR_HD.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Zagros TV (Iraq) (1080p)",
+      "url": "https://hlspackager.akamaized.net/live/DB/ZAGROS_TV/HLS/ZAGROS_TV.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Al-Hurra Iraq",
+      "url": "https://mbnvvideoingest-i.akamaihd.net/hls/live/1004674/MBNV_ALHURRA_IRAQ/playlist.m3u8",
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Al-Hurra",
+      "url": "https://mbnvvideoingest-i.akamaihd.net/hls/live/1004673/MBNV_ALHURRA_MAIN/playlist.m3u8",
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Al-Iraqiya",
+      "url": "https://cdn.catiacast.video/abr/8d2ffb0aba244e8d9101a9488a7daa05/playlist.m3u8",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 401 (behörighet eller region)"
+    },
+    {
+      "name": "Al-Rafidain",
+      "url": "https://cdg8.edge.technocdn.com/arrafidaintv/abr_live/playlist.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Al-Rasheed",
+      "url": "https://media1.livaat.com/AL-RASHEED-HD/tracks-v1a1/playlist.m3u8",
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Al-Sharqiya News",
+      "url": "https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Al-Sharqiya",
+      "url": "https://5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Dijlah Tarab",
+      "url": "https://ghaasiflu.online/tarab/tracks-v1a1/playlist.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Turkmeneli TV",
+      "url": "https://137840.global.ssl.fastly.net/edge/live_6b7c6e205afb11ebb010f5a331abaf98/playlist.m3u8",
+      "status": "FEL",
+      "reason": "HTTP 500"
+    },
+    {
+      "name": "Zagros TV",
+      "url": "https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    }
+  ]
+}

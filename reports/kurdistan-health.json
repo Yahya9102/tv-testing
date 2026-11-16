@@ -1,0 +1,359 @@
+{
+  "checked_at_utc": "2026-11-16T19:38:10+00:00",
+  "results": [
+    {
+      "name": "4Kurd",
+      "url": "https://4kuhls.persiana.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Afarin Baxcha (1080p)",
+      "url": "https://5dcabf026b188.streamlock.net/afarinTV/livestream/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Afarin TV (720p) [Not 24/7]",
+      "url": "https://65f16f0fdfc51.streamlock.net/afarinTV/livestream/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Al Iraqia Kurdish (720p)",
+      "url": "https://imn-live.esite-lab.com/hls/iraqia-kurdish.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Amozhgary TV",
+      "url": "https://app-live.org/live/3268334b/index.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Aryen TV (1080p) [Not 24/7]",
+      "url": "https://aryen.tv/live/tv/playlist.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Atrak TV",
+      "url": "https://ncdn.telewebion.ir/atrak/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "AVA Media (1080p)",
+      "url": "http://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV-avc1_2500000=10002,mp4a_128000=20000.m3u8",
+      "status": "FEL",
+      "reason": "HTTP 400"
+    },
+    {
+      "name": "Avar TV (1080p)",
+      "url": "https://avr.host247.net/live/AvarTv/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Channel8 (720p)",
+      "url": "https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Cira TV (1080p)",
+      "url": "https://hlspackager.akamaized.net/live/DB/CIRA_TV/HLS/CIRA_TV.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "EmanTv (1080p)",
+      "url": "https://avr.host247.net/live/emantv/playlist.m3u8",
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "FarmodaTV (1080p)",
+      "url": "https://avr.host247.net/live/FarmodaTV/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Ilke TV (1080p)",
+      "url": "https://stream.ilketv.com.tr/hls/ilkecanli.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Jin TV",
+      "url": "https://live.jintv.org/medialive/jintv.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Komala TV",
+      "url": "https://komhls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Kurd Channel",
+      "url": "https://kurdchhls.wns.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Kurdistan 24 (1080p)",
+      "url": "https://hlspackager.akamaized.net/live/DB/K24/HLS/K24.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Kurdistan TV (720p) [Not 24/7]",
+      "url": "https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Kurdsat (1080p)",
+      "url": "https://hlspackager.akamaized.net/live/DB/KURDSAT_HD/HLS/KURDSAT_HD.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Kurdsat News (1080p)",
+      "url": "https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Med Muzik (1080p)",
+      "url": "http://54.36.110.140/live3/live3.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Mixkurdy (1080p)",
+      "url": "https://avr.host247.net/live/Mix-kurdy/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "NRT TV (720p) [Not 24/7]",
+      "url": "https://media.streambrothers.com:1936/8226/8226/playlist.m3u8",
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Payam TV (1080p)",
+      "url": "https://hlspackager.akamaized.net/live/DB/PAYAM_TV/HLS/PAYAM_TV.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Rojava TV (1080p)",
+      "url": "https://hlspackager.akamaized.net/live/DB/ROJAVA_HD/HLS/ROJAVA_HD.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Ronahi TV (1080p)",
+      "url": "https://hlspackager.akamaized.net/live/DB/RONAHI_TV/HLS/RONAHI_TV.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Rudaw TV (1080p)",
+      "url": "https://hlspackager.akamaized.net/live/DB/RUDAW/HLS/RUDAW.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Sercem TV (1080p)",
+      "url": "https://canli.sercemtv.com.tr/hls/0/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Sterk TV (1080p)",
+      "url": "https://hlspackager.akamaized.net/live/DB/STERK_TV/HLS/STERK_TV.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "TRT Kurdi (720p)",
+      "url": "https://tv-trtkurdi.medya.trt.com.tr/master.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Waar TV (1080p)",
+      "url": "https://hlspackager.akamaized.net/live/DB/WAAR_HD/HLS/WAAR_HD.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "West Azerbaijan TV",
+      "url": "https://ncdn.telewebion.ir/azarbayjangharbi/live/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Zarok TV (720p)",
+      "url": "https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Zoom News (720p)",
+      "url": "https://live.zoomnews.info/live/Zoom_playlist.m3u8",
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
+    },
+    {
+      "name": "Zagros TV (Iraq) (1080p)",
+      "url": "https://hlspackager.akamaized.net/live/DB/ZAGROS_TV/HLS/ZAGROS_TV.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Kurdmax Sorani",
+      "url": "https://6476e46b58f91.streamlock.net/liveTrans/KurdmaxS0rani!/playlist.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Kurdmax (alternativ)",
+      "url": "https://6476e46b58f91.streamlock.net/liveTrans/KURDB3388/playlist.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Kurdmax Show",
+      "url": "https://6476e46b58f91.streamlock.net/liveTrans/SHOW1/playlist.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Kurdmax Show (alternativ)",
+      "url": "https://6476e46b58f91.streamlock.net/liveTrans/SHOW2/playlist.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Kurdmax Music",
+      "url": "https://6476e46b58f91.streamlock.net/music/livestream/playlist.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Kurdmax Music (alternativ)",
+      "url": "https://5aa8c7549bfa9.streamlock.net/music/livestream/playlist.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Kurdsat (reservkälla)",
+      "url": "https://iko-live.akamaized.net/KurdsatTV/master.m3u8",
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Kurdsat (reservkälla 2)",
+      "url": "https://kurdsat.akamaized.net/hls/kurdsat.m3u8",
+      "status": "FEL",
+      "reason": "HTTP 503"
+    },
+    {
+      "name": "Kurdsat News (reservkälla)",
+      "url": "https://kurdsat-news.akamaized.net/hls/stream_0.m3u8",
+      "status": "FEL",
+      "reason": "HTTP 503"
+    },
+    {
+      "name": "Kurdistan 24 (reservkälla)",
+      "url": "https://d1x82nydcxndze.cloudfront.net/live/index_720p25.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Rudaw (reservkälla)",
+      "url": "https://svs.itworkscdn.net/rudawlive/rudawlive.smil/playlist.m3u8",
+      "status": "FEL",
+      "reason": "Servern returnerade inte M3U8"
+    },
+    {
+      "name": "Speda TV",
+      "url": "https://s1.ettehadlive.com/live/79/chunklist.m3u8",
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Gali Kurdistan TV",
+      "url": "https://live.host247.net/gk/gksat/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Kirkuk Satellite TV",
+      "url": "https://live.kirkuklive.live/hls/stream/index.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Zarok TV (Sorani)",
+      "url": "https://zindisorani.zaroktv.com.tr/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Zarok TV (alternativ)",
+      "url": "https://iko-live.akamaized.net/ZarokTV/master.m3u8",
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "AVA Family",
+      "url": "https://familyhls.avatv.live/hls/stream.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Welat TV",
+      "url": "https://stream.badinan.xyz/welat/tv/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Khak TV",
+      "url": "http://bblserver.ddns.net:1935/stream/khakhd/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
+      "name": "Nubar TV",
+      "url": "http://stream.nubar.tv:1935/private/NUBARtv/playlist.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Net TV",
+      "url": "https://5ab29cc78f681.streamlock.net/teratargetvideostream2nd/livestream/playlist.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "Newline HD TV",
+      "url": "http://newline.teradek.live:1935/live/linehd/playlist.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    },
+    {
+      "name": "UTV Hawler",
+      "url": "http://utv.teradek.live:1935/live/utvhd/playlist.m3u8",
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
+    }
+  ]
+}
