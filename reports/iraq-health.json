@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-16T19:39:02+00:00",
+  "checked_at_utc": "2026-11-17T18:37:15+00:00",
   "results": [
     {
       "name": "ABNsat (720p)",
@@ -16,8 +16,8 @@
     {
       "name": "Afarin Baxcha (1080p)",
       "url": "https://5dcabf026b188.streamlock.net/afarinTV/livestream/playlist.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
     },
     {
       "name": "Afarin TV (720p) [Not 24/7]",
@@ -298,8 +298,8 @@
     {
       "name": "Mixkurdy (1080p)",
       "url": "https://avr.host247.net/live/Mix-kurdy/playlist.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SPELLISTA_NÅBAR",
+      "reason": "Manifest OK; segment: HTTP 404"
     },
     {
       "name": "NRT TV (720p) [Not 24/7]",
@@ -406,8 +406,8 @@
     {
       "name": "Zagros TV",
       "url": "https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/playlist.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
     }
   ]
 }

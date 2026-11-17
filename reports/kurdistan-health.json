@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-16T19:38:10+00:00",
+  "checked_at_utc": "2026-11-17T18:36:30+00:00",
   "results": [
     {
       "name": "4Kurd",
@@ -10,8 +10,8 @@
     {
       "name": "Afarin Baxcha (1080p)",
       "url": "https://5dcabf026b188.streamlock.net/afarinTV/livestream/playlist.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
     },
     {
       "name": "Afarin TV (720p) [Not 24/7]",
@@ -52,8 +52,8 @@
     {
       "name": "Avar TV (1080p)",
       "url": "https://avr.host247.net/live/AvarTv/playlist.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
     },
     {
       "name": "Channel8 (720p)",
@@ -208,8 +208,8 @@
     {
       "name": "Zoom News (720p)",
       "url": "https://live.zoomnews.info/live/Zoom_playlist.m3u8",
-      "status": "BLOCKERAD",
-      "reason": "HTTP 403 (behörighet eller region)"
+      "status": "FEL",
+      "reason": "HTTP 523"
     },
     {
       "name": "Zagros TV (Iraq) (1080p)",
@@ -286,8 +286,8 @@
     {
       "name": "Speda TV",
       "url": "https://s1.ettehadlive.com/live/79/chunklist.m3u8",
-      "status": "SAKNAS",
-      "reason": "HTTP 404"
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
     },
     {
       "name": "Gali Kurdistan TV",

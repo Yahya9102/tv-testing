@@ -1,22 +1,22 @@
 # Kontroll av IPTV-kanaler
 
-Körd (UTC): **2026-11-16T19:38:10+00:00**
+Körd (UTC): **2026-11-17T18:36:30+00:00**
 
-**59 adresser** – MEDIA_NÅBAR: 37 · BLOCKERAD: 1 · SAKNAS: 5 · OSÄKER: 12 · FEL: 4
+**59 adresser** – MEDIA_NÅBAR: 35 · SAKNAS: 4 · OSÄKER: 15 · FEL: 5
 
 **MEDIA_NÅBAR** betyder att ett M3U8-manifest och en del av ett mediasegment gick att hämta, inte att kanalen garanterat kan spelas i IBO Player. **SPELLISTA_NÅBAR** är en svagare kontroll. BLOCKERAD kan vara geografisk. Status kan ändras när som helst.
 
 | Kanal | Status | Kommentar |
 |---|---|---|
 | 4Kurd | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Afarin Baxcha (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| Afarin Baxcha (1080p) | OSÄKER | Timeout, DNS eller nätverksfel |
 | Afarin TV (720p) [Not 24/7] | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Al Iraqia Kurdish (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Amozhgary TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Aryen TV (1080p) [Not 24/7] | OSÄKER | Timeout, DNS eller nätverksfel |
 | Atrak TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | AVA Media (1080p) | FEL | HTTP 400 |
-| Avar TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| Avar TV (1080p) | OSÄKER | Timeout, DNS eller nätverksfel |
 | Channel8 (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Cira TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | EmanTv (1080p) | SAKNAS | HTTP 404 |
@@ -42,7 +42,7 @@ Körd (UTC): **2026-11-16T19:38:10+00:00**
 | Waar TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | West Azerbaijan TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Zarok TV (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Zoom News (720p) | BLOCKERAD | HTTP 403 (behörighet eller region) |
+| Zoom News (720p) | FEL | HTTP 523 |
 | Zagros TV (Iraq) (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Kurdmax Sorani | OSÄKER | Timeout, DNS eller nätverksfel |
 | Kurdmax (alternativ) | OSÄKER | Timeout, DNS eller nätverksfel |
@@ -55,7 +55,7 @@ Körd (UTC): **2026-11-16T19:38:10+00:00**
 | Kurdsat News (reservkälla) | FEL | HTTP 503 |
 | Kurdistan 24 (reservkälla) | OSÄKER | Timeout, DNS eller nätverksfel |
 | Rudaw (reservkälla) | FEL | Servern returnerade inte M3U8 |
-| Speda TV | SAKNAS | HTTP 404 |
+| Speda TV | OSÄKER | Timeout, DNS eller nätverksfel |
 | Gali Kurdistan TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Kirkuk Satellite TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Zarok TV (Sorani) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |

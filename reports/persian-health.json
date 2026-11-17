@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-16T19:38:46+00:00",
+  "checked_at_utc": "2026-11-17T18:37:00+00:00",
   "results": [
     {
       "name": "4Kurd",
@@ -394,8 +394,8 @@
     {
       "name": "GEM Sport",
       "url": "https://steep-wildflower-284d.nhhwkiszzzvcuojxdo.workers.dev/?url=https://gg.hls2.xyz/live/IR+-+GEM+Sport/chunks.m3u8",
-      "status": "BLOCKERAD",
-      "reason": "HTTP 403 (behörighet eller region)"
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
     },
     {
       "name": "GEM TV",
@@ -838,8 +838,8 @@
     {
       "name": "PBC Tapesh TV (720p)",
       "url": "https://iptv.tapesh.tv/tapesh/playlist.m3u8",
-      "status": "SAKNAS",
-      "reason": "HTTP 404"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "Persiana Cinema",
@@ -1252,8 +1252,8 @@
     {
       "name": "WiseHumanTv (1080p)",
       "url": "https://avr.host247.net/live/WiseHumanTv/playlist.m3u8",
-      "status": "SAKNAS",
-      "reason": "HTTP 404"
+      "status": "SPELLISTA_NÅBAR",
+      "reason": "Manifest OK; segment: HTTP 404"
     }
   ]
 }
