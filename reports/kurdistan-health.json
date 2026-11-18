@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-17T18:36:30+00:00",
+  "checked_at_utc": "2026-11-18T18:06:33+00:00",
   "results": [
     {
       "name": "4Kurd",
@@ -52,14 +52,14 @@
     {
       "name": "Avar TV (1080p)",
       "url": "https://avr.host247.net/live/AvarTv/playlist.m3u8",
-      "status": "OSÄKER",
-      "reason": "Timeout, DNS eller nätverksfel"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "Channel8 (720p)",
       "url": "https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SPELLISTA_NÅBAR",
+      "reason": "Manifest OK; segment: HTTP 404"
     },
     {
       "name": "Cira TV (1080p)",
@@ -76,8 +76,8 @@
     {
       "name": "FarmodaTV (1080p)",
       "url": "https://avr.host247.net/live/FarmodaTV/playlist.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SPELLISTA_NÅBAR",
+      "reason": "Manifest OK; segment: HTTP 404"
     },
     {
       "name": "Ilke TV (1080p)",
@@ -286,8 +286,8 @@
     {
       "name": "Speda TV",
       "url": "https://s1.ettehadlive.com/live/79/chunklist.m3u8",
-      "status": "OSÄKER",
-      "reason": "Timeout, DNS eller nätverksfel"
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
     },
     {
       "name": "Gali Kurdistan TV",
@@ -328,8 +328,8 @@
     {
       "name": "Khak TV",
       "url": "http://bblserver.ddns.net:1935/stream/khakhd/playlist.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SPELLISTA_NÅBAR",
+      "reason": "Manifest OK; segment: HTTP 404"
     },
     {
       "name": "Nubar TV",

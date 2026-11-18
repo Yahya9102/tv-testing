@@ -1,8 +1,8 @@
 # Kontroll av IPTV-kanaler
 
-Körd (UTC): **2026-11-17T18:36:30+00:00**
+Körd (UTC): **2026-11-18T18:06:33+00:00**
 
-**59 adresser** – MEDIA_NÅBAR: 35 · SAKNAS: 4 · OSÄKER: 15 · FEL: 5
+**59 adresser** – MEDIA_NÅBAR: 33 · SPELLISTA_NÅBAR: 3 · SAKNAS: 5 · OSÄKER: 13 · FEL: 5
 
 **MEDIA_NÅBAR** betyder att ett M3U8-manifest och en del av ett mediasegment gick att hämta, inte att kanalen garanterat kan spelas i IBO Player. **SPELLISTA_NÅBAR** är en svagare kontroll. BLOCKERAD kan vara geografisk. Status kan ändras när som helst.
 
@@ -16,11 +16,11 @@ Körd (UTC): **2026-11-17T18:36:30+00:00**
 | Aryen TV (1080p) [Not 24/7] | OSÄKER | Timeout, DNS eller nätverksfel |
 | Atrak TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | AVA Media (1080p) | FEL | HTTP 400 |
-| Avar TV (1080p) | OSÄKER | Timeout, DNS eller nätverksfel |
-| Channel8 (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| Avar TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| Channel8 (720p) | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
 | Cira TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | EmanTv (1080p) | SAKNAS | HTTP 404 |
-| FarmodaTV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| FarmodaTV (1080p) | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
 | Ilke TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Jin TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Komala TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -55,14 +55,14 @@ Körd (UTC): **2026-11-17T18:36:30+00:00**
 | Kurdsat News (reservkälla) | FEL | HTTP 503 |
 | Kurdistan 24 (reservkälla) | OSÄKER | Timeout, DNS eller nätverksfel |
 | Rudaw (reservkälla) | FEL | Servern returnerade inte M3U8 |
-| Speda TV | OSÄKER | Timeout, DNS eller nätverksfel |
+| Speda TV | SAKNAS | HTTP 404 |
 | Gali Kurdistan TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Kirkuk Satellite TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Zarok TV (Sorani) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Zarok TV (alternativ) | SAKNAS | HTTP 404 |
 | AVA Family | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Welat TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Khak TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| Khak TV | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
 | Nubar TV | OSÄKER | Timeout, DNS eller nätverksfel |
 | Net TV | OSÄKER | Timeout, DNS eller nätverksfel |
 | Newline HD TV | OSÄKER | Timeout, DNS eller nätverksfel |

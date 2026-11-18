@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-17T18:37:15+00:00",
+  "checked_at_utc": "2026-11-18T18:07:14+00:00",
   "results": [
     {
       "name": "ABNsat (720p)",
@@ -142,8 +142,8 @@
     {
       "name": "Avar TV (1080p)",
       "url": "https://avr.host247.net/live/AvarTv/playlist.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SPELLISTA_NÅBAR",
+      "reason": "Manifest OK; segment: HTTP 404"
     },
     {
       "name": "BeitolAbbas TV Channel (720p)",
@@ -274,8 +274,8 @@
     {
       "name": "Marjaeyat TV Arabic (1080p)",
       "url": "https://livefa.marjaeyattv.com/mtv_ar/playlist.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
     },
     {
       "name": "Marjaeyat TV English (1080p)",
@@ -298,8 +298,8 @@
     {
       "name": "Mixkurdy (1080p)",
       "url": "https://avr.host247.net/live/Mix-kurdy/playlist.m3u8",
-      "status": "SPELLISTA_NÅBAR",
-      "reason": "Manifest OK; segment: HTTP 404"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "NRT TV (720p) [Not 24/7]",
@@ -406,8 +406,8 @@
     {
       "name": "Zagros TV",
       "url": "https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/playlist.m3u8",
-      "status": "SAKNAS",
-      "reason": "HTTP 404"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     }
   ]
 }

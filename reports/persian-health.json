@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-17T18:37:00+00:00",
+  "checked_at_utc": "2026-11-18T18:06:58+00:00",
   "results": [
     {
       "name": "4Kurd",
@@ -394,8 +394,8 @@
     {
       "name": "GEM Sport",
       "url": "https://steep-wildflower-284d.nhhwkiszzzvcuojxdo.workers.dev/?url=https://gg.hls2.xyz/live/IR+-+GEM+Sport/chunks.m3u8",
-      "status": "OSÄKER",
-      "reason": "Timeout, DNS eller nätverksfel"
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
     },
     {
       "name": "GEM TV",
@@ -508,8 +508,8 @@
     {
       "name": "Imam Hussein TV 1 (1080p)",
       "url": "http://fa.imamhossaintv.com/live/ih1.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "OSÄKER",
+      "reason": "Oförutsett svar"
     },
     {
       "name": "Imam Hussein TV 6 (1080p)",
@@ -970,8 +970,8 @@
     {
       "name": "Pooya TV",
       "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-iribpooya/tracks-v1a1/mono.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
     },
     {
       "name": "Pooya TV Plus",
@@ -1010,7 +1010,7 @@
       "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
-      "name": "Roya TV (Iran)",
+      "name": "Roya TV (Iran) (720p)",
       "url": "https://ncdn.telewebion.ir/iribu/live/playlist.m3u8",
       "status": "MEDIA_NÅBAR",
       "reason": "Manifest + del av mediasegment kan hämtas"
@@ -1052,7 +1052,7 @@
       "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
-      "name": "Semnan TV",
+      "name": "Semnan TV (576p)",
       "url": "https://ncdn.telewebion.ir/semnan/live/playlist.m3u8",
       "status": "MEDIA_NÅBAR",
       "reason": "Manifest + del av mediasegment kan hämtas"
@@ -1204,11 +1204,11 @@
     {
       "name": "YourTime TV",
       "url": "https://hls.yourtime.live/hls/stream.m3u8",
-      "status": "OSÄKER",
-      "reason": "Timeout, DNS eller nätverksfel"
+      "status": "FEL",
+      "reason": "Servern returnerade inte M3U8"
     },
     {
-      "name": "Zagros TV (Iran)",
+      "name": "Zagros TV (Iran) (576p)",
       "url": "https://ncdn.telewebion.ir/zagros/live/playlist.m3u8",
       "status": "MEDIA_NÅBAR",
       "reason": "Manifest + del av mediasegment kan hämtas"

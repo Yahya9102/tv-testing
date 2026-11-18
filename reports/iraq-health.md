@@ -1,6 +1,6 @@
 # Kontroll av IPTV-kanaler
 
-Körd (UTC): **2026-11-17T18:37:15+00:00**
+Körd (UTC): **2026-11-18T18:07:14+00:00**
 
 **68 adresser** – MEDIA_NÅBAR: 48 · SPELLISTA_NÅBAR: 1 · BLOCKERAD: 2 · SAKNAS: 7 · OSÄKER: 7 · FEL: 3
 
@@ -31,7 +31,7 @@ Körd (UTC): **2026-11-17T18:37:15+00:00**
 | Anwar TV2 (720p) | BLOCKERAD | HTTP 403 (behörighet eller region) |
 | AVA Family | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | AVA Media (1080p) | FEL | HTTP 400 |
-| Avar TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| Avar TV (1080p) | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
 | BeitolAbbas TV Channel (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Channel8 (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Dijlah TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -53,11 +53,11 @@ Körd (UTC): **2026-11-17T18:37:15+00:00**
 | Kurdsat (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Kurdsat News (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Manu Chat | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Marjaeyat TV Arabic (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| Marjaeyat TV Arabic (1080p) | SAKNAS | HTTP 404 |
 | Marjaeyat TV English (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Marjaeyat TV Persian (240p) [Not 24/7] | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | MBC Iraq (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Mixkurdy (1080p) | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
+| Mixkurdy (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | NRT TV (720p) [Not 24/7] | SAKNAS | HTTP 404 |
 | Payam TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Rudaw TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -75,6 +75,6 @@ Körd (UTC): **2026-11-17T18:37:15+00:00**
 | Al-Sharqiya | OSÄKER | Timeout, DNS eller nätverksfel |
 | Dijlah Tarab | OSÄKER | Timeout, DNS eller nätverksfel |
 | Turkmeneli TV | FEL | HTTP 500 |
-| Zagros TV | SAKNAS | HTTP 404 |
+| Zagros TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 
 Den här kontrollen körs på GitHubs nätverk, inte på TV:ns nätverk i Sverige.
