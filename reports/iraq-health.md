@@ -1,8 +1,8 @@
 # Kontroll av IPTV-kanaler
 
-Körd (UTC): **2026-11-18T18:07:14+00:00**
+Körd (UTC): **2026-11-19T18:19:29+00:00**
 
-**68 adresser** – MEDIA_NÅBAR: 48 · SPELLISTA_NÅBAR: 1 · BLOCKERAD: 2 · SAKNAS: 7 · OSÄKER: 7 · FEL: 3
+**68 adresser** – MEDIA_NÅBAR: 49 · SPELLISTA_NÅBAR: 2 · BLOCKERAD: 2 · SAKNAS: 6 · OSÄKER: 7 · FEL: 2
 
 **MEDIA_NÅBAR** betyder att ett M3U8-manifest och en del av ett mediasegment gick att hämta, inte att kanalen garanterat kan spelas i IBO Player. **SPELLISTA_NÅBAR** är en svagare kontroll. BLOCKERAD kan vara geografisk. Status kan ändras när som helst.
 
@@ -12,7 +12,7 @@ Körd (UTC): **2026-11-18T18:07:14+00:00**
 | Afaq TV | OSÄKER | Timeout, DNS eller nätverksfel |
 | Afarin Baxcha (1080p) | OSÄKER | Timeout, DNS eller nätverksfel |
 | Afarin TV (720p) [Not 24/7] | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Al Iraqia (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| Al Iraqia (1080p) | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
 | Al Iraqia Kurdish (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Al Iraqia News (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Al Iraqia Sport (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -30,12 +30,12 @@ Körd (UTC): **2026-11-18T18:07:14+00:00**
 | Amozhgary TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Anwar TV2 (720p) | BLOCKERAD | HTTP 403 (behörighet eller region) |
 | AVA Family | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| AVA Media (1080p) | FEL | HTTP 400 |
-| Avar TV (1080p) | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
+| AVA Media (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| Avar TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | BeitolAbbas TV Channel (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Channel8 (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Dijlah TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| EmanTv (1080p) | SAKNAS | HTTP 404 |
+| Dijlah TV (1080p) | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
+| EmanTv (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | FarmodaTV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | I News (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Imam Hussein TV 1 (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |

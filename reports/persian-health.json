@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-18T18:06:58+00:00",
+  "checked_at_utc": "2026-11-19T18:19:16+00:00",
   "results": [
     {
       "name": "4Kurd",
@@ -196,8 +196,8 @@
     {
       "name": "Didgah TV (576p)",
       "url": "https://media.streambrothers.com:1936/8276/8276/playlist.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SPELLISTA_NÅBAR",
+      "reason": "Manifest OK; segment: HTTP 404"
     },
     {
       "name": "Ekran Movies",
@@ -508,8 +508,8 @@
     {
       "name": "Imam Hussein TV 1 (1080p)",
       "url": "http://fa.imamhossaintv.com/live/ih1.m3u8",
-      "status": "OSÄKER",
-      "reason": "Oförutsett svar"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "Imam Hussein TV 6 (1080p)",
@@ -838,8 +838,8 @@
     {
       "name": "PBC Tapesh TV (720p)",
       "url": "https://iptv.tapesh.tv/tapesh/playlist.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
     },
     {
       "name": "Persiana Cinema",
@@ -970,8 +970,8 @@
     {
       "name": "Pooya TV",
       "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-iribpooya/tracks-v1a1/mono.m3u8",
-      "status": "OSÄKER",
-      "reason": "Timeout, DNS eller nätverksfel"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "Pooya TV Plus",
@@ -1204,8 +1204,8 @@
     {
       "name": "YourTime TV",
       "url": "https://hls.yourtime.live/hls/stream.m3u8",
-      "status": "FEL",
-      "reason": "Servern returnerade inte M3U8"
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
     },
     {
       "name": "Zagros TV (Iran) (576p)",
@@ -1252,8 +1252,8 @@
     {
       "name": "WiseHumanTv (1080p)",
       "url": "https://avr.host247.net/live/WiseHumanTv/playlist.m3u8",
-      "status": "SPELLISTA_NÅBAR",
-      "reason": "Manifest OK; segment: HTTP 404"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     }
   ]
 }
