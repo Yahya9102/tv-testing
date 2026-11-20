@@ -1,8 +1,8 @@
 # Kontroll av IPTV-kanaler
 
-Körd (UTC): **2026-11-19T18:19:16+00:00**
+Körd (UTC): **2026-11-20T17:51:22+00:00**
 
-**209 adresser** – MEDIA_NÅBAR: 140 · SPELLISTA_NÅBAR: 3 · BLOCKERAD: 32 · SAKNAS: 9 · OSÄKER: 18 · FEL: 7
+**209 adresser** – MEDIA_NÅBAR: 141 · SPELLISTA_NÅBAR: 2 · BLOCKERAD: 32 · SAKNAS: 9 · OSÄKER: 18 · FEL: 7
 
 **MEDIA_NÅBAR** betyder att ett M3U8-manifest och en del av ett mediasegment gick att hämta, inte att kanalen garanterat kan spelas i IBO Player. **SPELLISTA_NÅBAR** är en svagare kontroll. BLOCKERAD kan vara geografisk. Status kan ändras när som helst.
 
@@ -40,7 +40,7 @@ Körd (UTC): **2026-11-19T18:19:16+00:00**
 | Classic TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Datis TV | OSÄKER | Timeout, DNS eller nätverksfel |
 | Dena TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Didgah TV (576p) | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
+| Didgah TV (576p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Ekran Movies | BLOCKERAD | HTTP 403 (behörighet eller region) |
 | Energy | FEL | Servern returnerade inte M3U8 |
 | EPlanet TV | OSÄKER | Timeout, DNS eller nätverksfel |
@@ -147,7 +147,7 @@ Körd (UTC): **2026-11-19T18:19:16+00:00**
 | Payam Javan TV (720p) [Not 24/7] | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Payame Aramesh TV (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Payvand TV (Iran) (720p) [Not 24/7] | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| PBC Tapesh TV (720p) | SAKNAS | HTTP 404 |
+| PBC Tapesh TV (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Persiana Cinema | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Persiana Comedy | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Persiana Docs | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -216,6 +216,6 @@ Körd (UTC): **2026-11-19T18:19:16+00:00**
 | iFilm English | SAKNAS | HTTP 404 |
 | Press TV (720p) | BLOCKERAD | HTTP 403 (behörighet eller region) |
 | Press TV French (1080p) | OSÄKER | Timeout, DNS eller nätverksfel |
-| WiseHumanTv (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| WiseHumanTv (1080p) | SAKNAS | HTTP 404 |
 
 Den här kontrollen körs på GitHubs nätverk, inte på TV:ns nätverk i Sverige.
