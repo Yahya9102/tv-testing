@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-20T17:51:38+00:00",
+  "checked_at_utc": "2026-11-21T16:50:02+00:00",
   "results": [
     {
       "name": "ABNsat (720p)",
@@ -28,14 +28,14 @@
     {
       "name": "Al Iraqia (1080p)",
       "url": "https://imn-live.esite-lab.com/hls/iraqia-general.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SPELLISTA_NÅBAR",
+      "reason": "Manifest OK; segment: HTTP 404"
     },
     {
       "name": "Al Iraqia Kurdish (720p)",
       "url": "https://imn-live.esite-lab.com/hls/iraqia-kurdish.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SPELLISTA_NÅBAR",
+      "reason": "Manifest OK; segment: HTTP 404"
     },
     {
       "name": "Al Iraqia News (720p)",
@@ -160,14 +160,14 @@
     {
       "name": "Dijlah TV (1080p)",
       "url": "https://ghaasiflu.online/Dijlah/index.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SPELLISTA_NÅBAR",
+      "reason": "Manifest OK; segment: HTTP 404"
     },
     {
       "name": "EmanTv (1080p)",
       "url": "https://avr.host247.net/live/emantv/playlist.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
     },
     {
       "name": "FarmodaTV (1080p)",
@@ -208,8 +208,8 @@
     {
       "name": "Imam Hussein TV 5 (720p)",
       "url": "http://live.al-zahratv.com/live/playlist.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "OSÄKER",
+      "reason": "Oförutsett svar"
     },
     {
       "name": "Imam Hussein TV 6 (1080p)",
@@ -406,8 +406,8 @@
     {
       "name": "Zagros TV",
       "url": "https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/playlist.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
     }
   ]
 }

@@ -1,8 +1,8 @@
 # Kontroll av IPTV-kanaler
 
-Körd (UTC): **2026-11-20T17:50:43+00:00**
+Körd (UTC): **2026-11-21T16:49:12+00:00**
 
-**59 adresser** – MEDIA_NÅBAR: 35 · SPELLISTA_NÅBAR: 1 · SAKNAS: 5 · OSÄKER: 13 · FEL: 5
+**59 adresser** – MEDIA_NÅBAR: 35 · BLOCKERAD: 1 · SAKNAS: 6 · OSÄKER: 13 · FEL: 4
 
 **MEDIA_NÅBAR** betyder att ett M3U8-manifest och en del av ett mediasegment gick att hämta, inte att kanalen garanterat kan spelas i IBO Player. **SPELLISTA_NÅBAR** är en svagare kontroll. BLOCKERAD kan vara geografisk. Status kan ändras när som helst.
 
@@ -17,9 +17,9 @@ Körd (UTC): **2026-11-20T17:50:43+00:00**
 | Atrak TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | AVA Media (1080p) | FEL | HTTP 400 |
 | Avar TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Channel8 (720p) | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
+| Channel8 (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Cira TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| EmanTv (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| EmanTv (1080p) | SAKNAS | HTTP 404 |
 | FarmodaTV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Ilke TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Jin TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -42,7 +42,7 @@ Körd (UTC): **2026-11-20T17:50:43+00:00**
 | Waar TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | West Azerbaijan TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Zarok TV (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Zoom News (720p) | FEL | HTTP 523 |
+| Zoom News (720p) | BLOCKERAD | HTTP 403 (behörighet eller region) |
 | Zagros TV (Iraq) (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Kurdmax Sorani | OSÄKER | Timeout, DNS eller nätverksfel |
 | Kurdmax (alternativ) | OSÄKER | Timeout, DNS eller nätverksfel |

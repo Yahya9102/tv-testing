@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-20T17:50:43+00:00",
+  "checked_at_utc": "2026-11-21T16:49:12+00:00",
   "results": [
     {
       "name": "4Kurd",
@@ -58,8 +58,8 @@
     {
       "name": "Channel8 (720p)",
       "url": "https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8",
-      "status": "SPELLISTA_NÅBAR",
-      "reason": "Manifest OK; segment: HTTP 404"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "Cira TV (1080p)",
@@ -70,8 +70,8 @@
     {
       "name": "EmanTv (1080p)",
       "url": "https://avr.host247.net/live/emantv/playlist.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
     },
     {
       "name": "FarmodaTV (1080p)",
@@ -208,8 +208,8 @@
     {
       "name": "Zoom News (720p)",
       "url": "https://live.zoomnews.info/live/Zoom_playlist.m3u8",
-      "status": "FEL",
-      "reason": "HTTP 523"
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
     },
     {
       "name": "Zagros TV (Iraq) (1080p)",

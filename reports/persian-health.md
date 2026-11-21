@@ -1,8 +1,8 @@
 # Kontroll av IPTV-kanaler
 
-Körd (UTC): **2026-11-20T17:51:22+00:00**
+Körd (UTC): **2026-11-21T16:49:47+00:00**
 
-**209 adresser** – MEDIA_NÅBAR: 141 · SPELLISTA_NÅBAR: 2 · BLOCKERAD: 32 · SAKNAS: 9 · OSÄKER: 18 · FEL: 7
+**209 adresser** – MEDIA_NÅBAR: 138 · SPELLISTA_NÅBAR: 4 · BLOCKERAD: 32 · SAKNAS: 11 · OSÄKER: 17 · FEL: 7
 
 **MEDIA_NÅBAR** betyder att ett M3U8-manifest och en del av ett mediasegment gick att hämta, inte att kanalen garanterat kan spelas i IBO Player. **SPELLISTA_NÅBAR** är en svagare kontroll. BLOCKERAD kan vara geografisk. Status kan ändras när som helst.
 
@@ -102,7 +102,7 @@ Körd (UTC): **2026-11-20T17:51:22+00:00**
 | IraneFarda TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | IRIB 1 | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | IRIB 2 | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| IRIB 3 | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| IRIB 3 | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 451 |
 | IRIB 4 | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | IRIB Mostanad | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | IRIB Omid | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -142,9 +142,9 @@ Körd (UTC): **2026-11-20T17:51:22+00:00**
 | Ofogh TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Omid e Iran TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | OXIR TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Palestinetv | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| Palestinetv | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
 | Pars TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Payam Javan TV (720p) [Not 24/7] | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| Payam Javan TV (720p) [Not 24/7] | SAKNAS | HTTP 404 |
 | Payame Aramesh TV (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Payvand TV (Iran) (720p) [Not 24/7] | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | PBC Tapesh TV (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -215,7 +215,7 @@ Körd (UTC): **2026-11-20T17:51:22+00:00**
 | iFilm Arabic | SAKNAS | HTTP 404 |
 | iFilm English | SAKNAS | HTTP 404 |
 | Press TV (720p) | BLOCKERAD | HTTP 403 (behörighet eller region) |
-| Press TV French (1080p) | OSÄKER | Timeout, DNS eller nätverksfel |
+| Press TV French (1080p) | SAKNAS | HTTP 404 |
 | WiseHumanTv (1080p) | SAKNAS | HTTP 404 |
 
 Den här kontrollen körs på GitHubs nätverk, inte på TV:ns nätverk i Sverige.
