@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-21T16:50:02+00:00",
+  "checked_at_utc": "2026-11-22T17:11:57+00:00",
   "results": [
     {
       "name": "ABNsat (720p)",
@@ -34,8 +34,8 @@
     {
       "name": "Al Iraqia Kurdish (720p)",
       "url": "https://imn-live.esite-lab.com/hls/iraqia-kurdish.m3u8",
-      "status": "SPELLISTA_NÅBAR",
-      "reason": "Manifest OK; segment: HTTP 404"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "Al Iraqia News (720p)",
@@ -160,8 +160,8 @@
     {
       "name": "Dijlah TV (1080p)",
       "url": "https://ghaasiflu.online/Dijlah/index.m3u8",
-      "status": "SPELLISTA_NÅBAR",
-      "reason": "Manifest OK; segment: HTTP 404"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "EmanTv (1080p)",
@@ -208,8 +208,8 @@
     {
       "name": "Imam Hussein TV 5 (720p)",
       "url": "http://live.al-zahratv.com/live/playlist.m3u8",
-      "status": "OSÄKER",
-      "reason": "Oförutsett svar"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "Imam Hussein TV 6 (1080p)",
@@ -274,8 +274,8 @@
     {
       "name": "Marjaeyat TV Arabic (1080p)",
       "url": "https://livefa.marjaeyattv.com/mtv_ar/playlist.m3u8",
-      "status": "SAKNAS",
-      "reason": "HTTP 404"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "Marjaeyat TV English (1080p)",

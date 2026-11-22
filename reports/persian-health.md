@@ -1,8 +1,8 @@
 # Kontroll av IPTV-kanaler
 
-Körd (UTC): **2026-11-21T16:49:47+00:00**
+Körd (UTC): **2026-11-22T17:11:41+00:00**
 
-**209 adresser** – MEDIA_NÅBAR: 138 · SPELLISTA_NÅBAR: 4 · BLOCKERAD: 32 · SAKNAS: 11 · OSÄKER: 17 · FEL: 7
+**209 adresser** – MEDIA_NÅBAR: 138 · SPELLISTA_NÅBAR: 5 · BLOCKERAD: 32 · SAKNAS: 10 · OSÄKER: 17 · FEL: 7
 
 **MEDIA_NÅBAR** betyder att ett M3U8-manifest och en del av ett mediasegment gick att hämta, inte att kanalen garanterat kan spelas i IBO Player. **SPELLISTA_NÅBAR** är en svagare kontroll. BLOCKERAD kan vara geografisk. Status kan ändras när som helst.
 
@@ -40,7 +40,7 @@ Körd (UTC): **2026-11-21T16:49:47+00:00**
 | Classic TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Datis TV | OSÄKER | Timeout, DNS eller nätverksfel |
 | Dena TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Didgah TV (576p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| Didgah TV (576p) | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
 | Ekran Movies | BLOCKERAD | HTTP 403 (behörighet eller region) |
 | Energy | FEL | Servern returnerade inte M3U8 |
 | EPlanet TV | OSÄKER | Timeout, DNS eller nätverksfel |
@@ -102,7 +102,7 @@ Körd (UTC): **2026-11-21T16:49:47+00:00**
 | IraneFarda TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | IRIB 1 | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | IRIB 2 | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| IRIB 3 | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 451 |
+| IRIB 3 | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | IRIB 4 | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | IRIB Mostanad | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | IRIB Omid | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -144,7 +144,7 @@ Körd (UTC): **2026-11-21T16:49:47+00:00**
 | OXIR TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Palestinetv | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
 | Pars TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Payam Javan TV (720p) [Not 24/7] | SAKNAS | HTTP 404 |
+| Payam Javan TV (720p) [Not 24/7] | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Payame Aramesh TV (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Payvand TV (Iran) (720p) [Not 24/7] | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | PBC Tapesh TV (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -173,7 +173,7 @@ Körd (UTC): **2026-11-21T16:49:47+00:00**
 | Pooya TV Plus | FEL | Servern returnerade inte M3U8 |
 | Qazvin TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Quran TV (Iran) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| RasoulallahTv (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| RasoulallahTv (1080p) | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
 | Razavi TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | RJTV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Roya TV (Iran) (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |

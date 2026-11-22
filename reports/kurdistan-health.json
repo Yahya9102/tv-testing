@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-21T16:49:12+00:00",
+  "checked_at_utc": "2026-11-22T17:11:08+00:00",
   "results": [
     {
       "name": "4Kurd",
@@ -46,8 +46,8 @@
     {
       "name": "AVA Media (1080p)",
       "url": "http://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV-avc1_2500000=10002,mp4a_128000=20000.m3u8",
-      "status": "FEL",
-      "reason": "HTTP 400"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "Avar TV (1080p)",
@@ -208,8 +208,8 @@
     {
       "name": "Zoom News (720p)",
       "url": "https://live.zoomnews.info/live/Zoom_playlist.m3u8",
-      "status": "BLOCKERAD",
-      "reason": "HTTP 403 (behörighet eller region)"
+      "status": "FEL",
+      "reason": "HTTP 523"
     },
     {
       "name": "Zagros TV (Iraq) (1080p)",

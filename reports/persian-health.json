@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-21T16:49:47+00:00",
+  "checked_at_utc": "2026-11-22T17:11:41+00:00",
   "results": [
     {
       "name": "4Kurd",
@@ -196,8 +196,8 @@
     {
       "name": "Didgah TV (576p)",
       "url": "https://media.streambrothers.com:1936/8276/8276/playlist.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SPELLISTA_NÅBAR",
+      "reason": "Manifest OK; segment: HTTP 404"
     },
     {
       "name": "Ekran Movies",
@@ -568,8 +568,8 @@
     {
       "name": "IRIB 3",
       "url": "https://ncdn.telewebion.ir/tv3/live/playlist.m3u8",
-      "status": "SPELLISTA_NÅBAR",
-      "reason": "Manifest OK; segment: HTTP 451"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "IRIB 4",
@@ -820,8 +820,8 @@
     {
       "name": "Payam Javan TV (720p) [Not 24/7]",
       "url": "https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8",
-      "status": "SAKNAS",
-      "reason": "HTTP 404"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "Payame Aramesh TV (720p)",
@@ -994,8 +994,8 @@
     {
       "name": "RasoulallahTv (1080p)",
       "url": "https://avr.host247.net/live/rasoulallahtv/playlist.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SPELLISTA_NÅBAR",
+      "reason": "Manifest OK; segment: HTTP 404"
     },
     {
       "name": "Razavi TV",
