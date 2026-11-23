@@ -1,6 +1,6 @@
 # Kontroll av IPTV-kanaler
 
-Körd (UTC): **2026-11-22T17:11:57+00:00**
+Körd (UTC): **2026-11-23T21:29:10+00:00**
 
 **68 adresser** – MEDIA_NÅBAR: 47 · SPELLISTA_NÅBAR: 1 · BLOCKERAD: 2 · SAKNAS: 8 · OSÄKER: 7 · FEL: 3
 
@@ -12,7 +12,7 @@ Körd (UTC): **2026-11-22T17:11:57+00:00**
 | Afaq TV | OSÄKER | Timeout, DNS eller nätverksfel |
 | Afarin Baxcha (1080p) | OSÄKER | Timeout, DNS eller nätverksfel |
 | Afarin TV (720p) [Not 24/7] | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Al Iraqia (1080p) | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
+| Al Iraqia (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Al Iraqia Kurdish (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Al Iraqia News (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Al Iraqia Sport (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -20,7 +20,7 @@ Körd (UTC): **2026-11-22T17:11:57+00:00**
 | Al Rasheed TV (1080p) [Not 24/7] | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Al Sharqiya (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Al Sharqiya News (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Al-Aimma TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| Al-Aimma TV (1080p) | SAKNAS | HTTP 404 |
 | Al-Jawadain TV (1080p) [Not 24/7] | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Al-Naeem TV | SAKNAS | HTTP 404 |
 | Alabbassia TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -34,8 +34,8 @@ Körd (UTC): **2026-11-22T17:11:57+00:00**
 | Avar TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | BeitolAbbas TV Channel (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Channel8 (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Dijlah TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| EmanTv (1080p) | SAKNAS | HTTP 404 |
+| Dijlah TV (1080p) | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
+| EmanTv (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | FarmodaTV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | I News (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Imam Hussein TV 1 (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |

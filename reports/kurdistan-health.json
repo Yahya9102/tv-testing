@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-22T17:11:08+00:00",
+  "checked_at_utc": "2026-11-23T21:28:22+00:00",
   "results": [
     {
       "name": "4Kurd",
@@ -38,7 +38,7 @@
       "reason": "Timeout, DNS eller nätverksfel"
     },
     {
-      "name": "Atrak TV",
+      "name": "Atrak TV (576p)",
       "url": "https://ncdn.telewebion.ir/atrak/live/playlist.m3u8",
       "status": "MEDIA_NÅBAR",
       "reason": "Manifest + del av mediasegment kan hämtas"
@@ -46,8 +46,8 @@
     {
       "name": "AVA Media (1080p)",
       "url": "http://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV-avc1_2500000=10002,mp4a_128000=20000.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "FEL",
+      "reason": "HTTP 400"
     },
     {
       "name": "Avar TV (1080p)",
@@ -70,8 +70,8 @@
     {
       "name": "EmanTv (1080p)",
       "url": "https://avr.host247.net/live/emantv/playlist.m3u8",
-      "status": "SAKNAS",
-      "reason": "HTTP 404"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "FarmodaTV (1080p)",
@@ -194,7 +194,7 @@
       "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
-      "name": "West Azerbaijan TV",
+      "name": "West Azerbaijan TV (576p)",
       "url": "https://ncdn.telewebion.ir/azarbayjangharbi/live/playlist.m3u8",
       "status": "MEDIA_NÅBAR",
       "reason": "Manifest + del av mediasegment kan hämtas"

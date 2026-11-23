@@ -1,8 +1,8 @@
 # Kontroll av IPTV-kanaler
 
-Körd (UTC): **2026-11-22T17:11:08+00:00**
+Körd (UTC): **2026-11-23T21:28:22+00:00**
 
-**59 adresser** – MEDIA_NÅBAR: 36 · SAKNAS: 6 · OSÄKER: 13 · FEL: 4
+**59 adresser** – MEDIA_NÅBAR: 36 · SAKNAS: 5 · OSÄKER: 13 · FEL: 5
 
 **MEDIA_NÅBAR** betyder att ett M3U8-manifest och en del av ett mediasegment gick att hämta, inte att kanalen garanterat kan spelas i IBO Player. **SPELLISTA_NÅBAR** är en svagare kontroll. BLOCKERAD kan vara geografisk. Status kan ändras när som helst.
 
@@ -14,12 +14,12 @@ Körd (UTC): **2026-11-22T17:11:08+00:00**
 | Al Iraqia Kurdish (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Amozhgary TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Aryen TV (1080p) [Not 24/7] | OSÄKER | Timeout, DNS eller nätverksfel |
-| Atrak TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| AVA Media (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| Atrak TV (576p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| AVA Media (1080p) | FEL | HTTP 400 |
 | Avar TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Channel8 (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Cira TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| EmanTv (1080p) | SAKNAS | HTTP 404 |
+| EmanTv (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | FarmodaTV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Ilke TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Jin TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -40,7 +40,7 @@ Körd (UTC): **2026-11-22T17:11:08+00:00**
 | Sterk TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | TRT Kurdi (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Waar TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| West Azerbaijan TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| West Azerbaijan TV (576p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Zarok TV (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Zoom News (720p) | FEL | HTTP 523 |
 | Zagros TV (Iraq) (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
