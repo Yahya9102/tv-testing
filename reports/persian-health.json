@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-23T21:28:54+00:00",
+  "checked_at_utc": "2026-11-24T20:11:42+00:00",
   "results": [
     {
       "name": "4Kurd",
@@ -392,12 +392,6 @@
       "reason": "HTTP 403 (behörighet eller region)"
     },
     {
-      "name": "GEM Sport",
-      "url": "https://steep-wildflower-284d.nhhwkiszzzvcuojxdo.workers.dev/?url=https://gg.hls2.xyz/live/IR+-+GEM+Sport/chunks.m3u8",
-      "status": "BLOCKERAD",
-      "reason": "HTTP 403 (behörighet eller region)"
-    },
-    {
       "name": "GEM TV",
       "url": "https://ca-rt.onetv.app/gem/index-0.m3u8?token=onetv202",
       "status": "BLOCKERAD",
@@ -406,8 +400,8 @@
     {
       "name": "GEM TV +",
       "url": "https://ca-rt.onetv.app/gemtvplus/index-0.m3u8?token=onetv202",
-      "status": "BLOCKERAD",
-      "reason": "HTTP 403 (behörighet eller region)"
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
     },
     {
       "name": "Gold Star",
@@ -1066,8 +1060,8 @@
     {
       "name": "Shabakeh 7",
       "url": "https://sh7hls.wns.live/hls/stream.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
     },
     {
       "name": "Simaye Azadi (1080p)",
@@ -1204,8 +1198,8 @@
     {
       "name": "YourTime TV",
       "url": "https://hls.yourtime.live/hls/stream.m3u8",
-      "status": "FEL",
-      "reason": "Servern returnerade inte M3U8"
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
     },
     {
       "name": "Zagros TV (Iran) (576p)",

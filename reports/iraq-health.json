@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-23T21:29:10+00:00",
+  "checked_at_utc": "2026-11-24T20:11:57+00:00",
   "results": [
     {
       "name": "ABNsat (720p)",
@@ -22,14 +22,14 @@
     {
       "name": "Afarin TV (720p) [Not 24/7]",
       "url": "https://65f16f0fdfc51.streamlock.net/afarinTV/livestream/playlist.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SPELLISTA_NÅBAR",
+      "reason": "Manifest OK; segment: HTTP 404"
     },
     {
       "name": "Al Iraqia (1080p)",
       "url": "https://imn-live.esite-lab.com/hls/iraqia-general.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SPELLISTA_NÅBAR",
+      "reason": "Manifest OK; segment: HTTP 404"
     },
     {
       "name": "Al Iraqia Kurdish (720p)",
@@ -46,8 +46,8 @@
     {
       "name": "Al Iraqia Sport (720p)",
       "url": "https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SPELLISTA_NÅBAR",
+      "reason": "Manifest OK; segment: HTTP 404"
     },
     {
       "name": "Al Janoub TV",
@@ -160,8 +160,8 @@
     {
       "name": "Dijlah TV (1080p)",
       "url": "https://ghaasiflu.online/Dijlah/index.m3u8",
-      "status": "SPELLISTA_NÅBAR",
-      "reason": "Manifest OK; segment: HTTP 404"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "EmanTv (1080p)",
@@ -172,8 +172,8 @@
     {
       "name": "FarmodaTV (1080p)",
       "url": "https://avr.host247.net/live/FarmodaTV/playlist.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SPELLISTA_NÅBAR",
+      "reason": "Manifest OK; segment: HTTP 404"
     },
     {
       "name": "I News (1080p)",
@@ -302,6 +302,12 @@
       "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
+      "name": "NRT Sport",
+      "url": "https://andam.uk/ytlive/nrtsport/index.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
+    },
+    {
       "name": "NRT TV (720p) [Not 24/7]",
       "url": "https://media.streambrothers.com:1936/8226/8226/playlist.m3u8",
       "status": "SAKNAS",
@@ -320,10 +326,10 @@
       "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
-      "name": "Samarra TV",
-      "url": "https://live.bradosti.net/live/samaraweb_playlist.m3u8",
-      "status": "FEL",
-      "reason": "HTTP 500"
+      "name": "Samarra TV (720p)",
+      "url": "https://live.samarra.tv/samarra/ngrp:live_abr/playlist.m3u8",
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "Shams TV (Iraq) (1080p)",

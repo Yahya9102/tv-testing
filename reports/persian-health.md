@@ -1,8 +1,8 @@
 # Kontroll av IPTV-kanaler
 
-Körd (UTC): **2026-11-23T21:28:54+00:00**
+Körd (UTC): **2026-11-24T20:11:42+00:00**
 
-**209 adresser** – MEDIA_NÅBAR: 141 · SPELLISTA_NÅBAR: 4 · BLOCKERAD: 32 · SAKNAS: 8 · OSÄKER: 16 · FEL: 8
+**208 adresser** – MEDIA_NÅBAR: 140 · SPELLISTA_NÅBAR: 4 · BLOCKERAD: 30 · SAKNAS: 9 · OSÄKER: 18 · FEL: 7
 
 **MEDIA_NÅBAR** betyder att ett M3U8-manifest och en del av ett mediasegment gick att hämta, inte att kanalen garanterat kan spelas i IBO Player. **SPELLISTA_NÅBAR** är en svagare kontroll. BLOCKERAD kan vara geografisk. Status kan ändras när som helst.
 
@@ -73,9 +73,8 @@ Körd (UTC): **2026-11-23T21:28:54+00:00**
 | GEM Rubix | BLOCKERAD | HTTP 403 (behörighet eller region) |
 | GEM Rubix + | BLOCKERAD | HTTP 403 (behörighet eller region) |
 | GEM Series + | BLOCKERAD | HTTP 403 (behörighet eller region) |
-| GEM Sport | BLOCKERAD | HTTP 403 (behörighet eller region) |
 | GEM TV | BLOCKERAD | HTTP 403 (behörighet eller region) |
-| GEM TV + | BLOCKERAD | HTTP 403 (behörighet eller region) |
+| GEM TV + | OSÄKER | Timeout, DNS eller nätverksfel |
 | Gold Star | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Golkhane Tv (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Grand Cinema | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -185,7 +184,7 @@ Körd (UTC): **2026-11-23T21:28:54+00:00**
 | Sat 7 Pars | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Semnan TV (576p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Sepehr TV (720p) | FEL | Servern returnerade inte M3U8 |
-| Shabakeh 7 | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| Shabakeh 7 | SAKNAS | HTTP 404 |
 | Simaye Azadi (1080p) | BLOCKERAD | HTTP 403 (behörighet eller region) |
 | SL 1 | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | SL 2 | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -208,7 +207,7 @@ Körd (UTC): **2026-11-23T21:28:54+00:00**
 | VoA TV Persian (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | West Azerbaijan TV (576p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Yazd TV (576p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| YourTime TV | FEL | Servern returnerade inte M3U8 |
+| YourTime TV | OSÄKER | Timeout, DNS eller nätverksfel |
 | Zagros TV (Iran) (576p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Al Wilayah (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Asil TV (576p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |

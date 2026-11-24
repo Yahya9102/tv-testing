@@ -1,8 +1,8 @@
 # Kontroll av IPTV-kanaler
 
-Körd (UTC): **2026-11-23T21:29:10+00:00**
+Körd (UTC): **2026-11-24T20:11:57+00:00**
 
-**68 adresser** – MEDIA_NÅBAR: 47 · SPELLISTA_NÅBAR: 1 · BLOCKERAD: 2 · SAKNAS: 8 · OSÄKER: 7 · FEL: 3
+**69 adresser** – MEDIA_NÅBAR: 46 · SPELLISTA_NÅBAR: 4 · BLOCKERAD: 2 · SAKNAS: 8 · OSÄKER: 7 · FEL: 2
 
 **MEDIA_NÅBAR** betyder att ett M3U8-manifest och en del av ett mediasegment gick att hämta, inte att kanalen garanterat kan spelas i IBO Player. **SPELLISTA_NÅBAR** är en svagare kontroll. BLOCKERAD kan vara geografisk. Status kan ändras när som helst.
 
@@ -11,11 +11,11 @@ Körd (UTC): **2026-11-23T21:29:10+00:00**
 | ABNsat (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Afaq TV | OSÄKER | Timeout, DNS eller nätverksfel |
 | Afarin Baxcha (1080p) | OSÄKER | Timeout, DNS eller nätverksfel |
-| Afarin TV (720p) [Not 24/7] | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Al Iraqia (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| Afarin TV (720p) [Not 24/7] | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
+| Al Iraqia (1080p) | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
 | Al Iraqia Kurdish (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Al Iraqia News (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Al Iraqia Sport (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| Al Iraqia Sport (720p) | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
 | Al Janoub TV | OSÄKER | Timeout, DNS eller nätverksfel |
 | Al Rasheed TV (1080p) [Not 24/7] | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Al Sharqiya (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -34,9 +34,9 @@ Körd (UTC): **2026-11-23T21:29:10+00:00**
 | Avar TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | BeitolAbbas TV Channel (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Channel8 (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Dijlah TV (1080p) | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
+| Dijlah TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | EmanTv (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| FarmodaTV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| FarmodaTV (1080p) | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
 | I News (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Imam Hussein TV 1 (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Imam Hussein TV 2 (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -58,10 +58,11 @@ Körd (UTC): **2026-11-23T21:29:10+00:00**
 | Marjaeyat TV Persian (240p) [Not 24/7] | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | MBC Iraq (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Mixkurdy (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| NRT Sport | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | NRT TV (720p) [Not 24/7] | SAKNAS | HTTP 404 |
 | Payam TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Rudaw TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Samarra TV | FEL | HTTP 500 |
+| Samarra TV (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Shams TV (Iraq) (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | UTV (Iraq) (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Waar TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
