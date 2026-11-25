@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-24T20:11:42+00:00",
+  "checked_at_utc": "2026-11-25T19:19:41+00:00",
   "results": [
     {
       "name": "4Kurd",
@@ -400,8 +400,8 @@
     {
       "name": "GEM TV +",
       "url": "https://ca-rt.onetv.app/gemtvplus/index-0.m3u8?token=onetv202",
-      "status": "OSÄKER",
-      "reason": "Timeout, DNS eller nätverksfel"
+      "status": "BLOCKERAD",
+      "reason": "HTTP 403 (behörighet eller region)"
     },
     {
       "name": "Gold Star",
@@ -1060,8 +1060,8 @@
     {
       "name": "Shabakeh 7",
       "url": "https://sh7hls.wns.live/hls/stream.m3u8",
-      "status": "SAKNAS",
-      "reason": "HTTP 404"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "Simaye Azadi (1080p)",
@@ -1162,8 +1162,8 @@
     {
       "name": "Varzesh TV (1082p)",
       "url": "https://ncdn.telewebion.ir/varzesh/live/playlist.m3u8",
-      "status": "SPELLISTA_NÅBAR",
-      "reason": "Manifest OK; segment: HTTP 451"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "Velayat TV (720p)",

@@ -1,8 +1,8 @@
 # Kontroll av IPTV-kanaler
 
-Körd (UTC): **2026-11-24T20:11:03+00:00**
+Körd (UTC): **2026-11-25T19:19:04+00:00**
 
-**59 adresser** – MEDIA_NÅBAR: 35 · SAKNAS: 6 · OSÄKER: 13 · FEL: 5
+**59 adresser** – MEDIA_NÅBAR: 35 · SPELLISTA_NÅBAR: 1 · SAKNAS: 5 · OSÄKER: 13 · FEL: 5
 
 **MEDIA_NÅBAR** betyder att ett M3U8-manifest och en del av ett mediasegment gick att hämta, inte att kanalen garanterat kan spelas i IBO Player. **SPELLISTA_NÅBAR** är en svagare kontroll. BLOCKERAD kan vara geografisk. Status kan ändras när som helst.
 
@@ -23,14 +23,14 @@ Körd (UTC): **2026-11-24T20:11:03+00:00**
 | FarmodaTV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Ilke TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Jin TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Komala TV | SAKNAS | HTTP 404 |
+| Komala TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Kurd Channel | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Kurdistan 24 (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Kurdistan TV (720p) [Not 24/7] | SAKNAS | HTTP 404 |
 | Kurdsat (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Kurdsat News (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Med Muzik (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Mixkurdy (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| Mixkurdy (1080p) | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
 | NRT TV (720p) [Not 24/7] | SAKNAS | HTTP 404 |
 | Payam TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Rojava TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |

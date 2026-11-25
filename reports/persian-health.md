@@ -1,8 +1,8 @@
 # Kontroll av IPTV-kanaler
 
-Körd (UTC): **2026-11-24T20:11:42+00:00**
+Körd (UTC): **2026-11-25T19:19:41+00:00**
 
-**208 adresser** – MEDIA_NÅBAR: 140 · SPELLISTA_NÅBAR: 4 · BLOCKERAD: 30 · SAKNAS: 9 · OSÄKER: 18 · FEL: 7
+**208 adresser** – MEDIA_NÅBAR: 142 · SPELLISTA_NÅBAR: 3 · BLOCKERAD: 31 · SAKNAS: 8 · OSÄKER: 17 · FEL: 7
 
 **MEDIA_NÅBAR** betyder att ett M3U8-manifest och en del av ett mediasegment gick att hämta, inte att kanalen garanterat kan spelas i IBO Player. **SPELLISTA_NÅBAR** är en svagare kontroll. BLOCKERAD kan vara geografisk. Status kan ändras när som helst.
 
@@ -74,7 +74,7 @@ Körd (UTC): **2026-11-24T20:11:42+00:00**
 | GEM Rubix + | BLOCKERAD | HTTP 403 (behörighet eller region) |
 | GEM Series + | BLOCKERAD | HTTP 403 (behörighet eller region) |
 | GEM TV | BLOCKERAD | HTTP 403 (behörighet eller region) |
-| GEM TV + | OSÄKER | Timeout, DNS eller nätverksfel |
+| GEM TV + | BLOCKERAD | HTTP 403 (behörighet eller region) |
 | Gold Star | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Golkhane Tv (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Grand Cinema | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -184,7 +184,7 @@ Körd (UTC): **2026-11-24T20:11:42+00:00**
 | Sat 7 Pars | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Semnan TV (576p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Sepehr TV (720p) | FEL | Servern returnerade inte M3U8 |
-| Shabakeh 7 | SAKNAS | HTTP 404 |
+| Shabakeh 7 | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Simaye Azadi (1080p) | BLOCKERAD | HTTP 403 (behörighet eller region) |
 | SL 1 | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | SL 2 | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -201,7 +201,7 @@ Körd (UTC): **2026-11-24T20:11:42+00:00**
 | TM TV (United States) (720p) | OSÄKER | Timeout, DNS eller nätverksfel |
 | TV ITN | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | TVA Nava (720p) | FEL | Servern returnerade inte M3U8 |
-| Varzesh TV (1082p) | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 451 |
+| Varzesh TV (1082p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Velayat TV (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Velayat TV Network (480p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | VoA TV Persian (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |

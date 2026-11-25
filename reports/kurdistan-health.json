@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-24T20:11:03+00:00",
+  "checked_at_utc": "2026-11-25T19:19:04+00:00",
   "results": [
     {
       "name": "4Kurd",
@@ -94,8 +94,8 @@
     {
       "name": "Komala TV",
       "url": "https://komhls.wns.live/hls/stream.m3u8",
-      "status": "SAKNAS",
-      "reason": "HTTP 404"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "Kurd Channel",
@@ -136,8 +136,8 @@
     {
       "name": "Mixkurdy (1080p)",
       "url": "https://avr.host247.net/live/Mix-kurdy/playlist.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SPELLISTA_NÅBAR",
+      "reason": "Manifest OK; segment: HTTP 404"
     },
     {
       "name": "NRT TV (720p) [Not 24/7]",
