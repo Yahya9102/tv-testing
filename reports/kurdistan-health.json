@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-25T19:19:04+00:00",
+  "checked_at_utc": "2026-11-26T19:02:22+00:00",
   "results": [
     {
       "name": "4Kurd",
@@ -58,8 +58,8 @@
     {
       "name": "Channel8 (720p)",
       "url": "https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SPELLISTA_NÅBAR",
+      "reason": "Manifest OK; segment: HTTP 404"
     },
     {
       "name": "Cira TV (1080p)",
@@ -100,8 +100,8 @@
     {
       "name": "Kurd Channel",
       "url": "https://kurdchhls.wns.live/hls/stream.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
     },
     {
       "name": "Kurdistan 24 (1080p)",
@@ -136,8 +136,8 @@
     {
       "name": "Mixkurdy (1080p)",
       "url": "https://avr.host247.net/live/Mix-kurdy/playlist.m3u8",
-      "status": "SPELLISTA_NÅBAR",
-      "reason": "Manifest OK; segment: HTTP 404"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "NRT TV (720p) [Not 24/7]",
@@ -316,8 +316,8 @@
     {
       "name": "AVA Family",
       "url": "https://familyhls.avatv.live/hls/stream.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
     },
     {
       "name": "Welat TV",
@@ -328,8 +328,8 @@
     {
       "name": "Khak TV",
       "url": "http://bblserver.ddns.net:1935/stream/khakhd/playlist.m3u8",
-      "status": "MEDIA_NÅBAR",
-      "reason": "Manifest + del av mediasegment kan hämtas"
+      "status": "SAKNAS",
+      "reason": "HTTP 404"
     },
     {
       "name": "Nubar TV",
