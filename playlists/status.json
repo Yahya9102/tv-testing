@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-25T14:29:51+00:00",
+  "updated_utc": "2026-11-26T13:57:57+00:00",
   "groups": {
     "kurdistan": {
       "label": "Kurdiska",
@@ -33,11 +33,11 @@
     },
     "international": {
       "label": "Internationella",
-      "channels": 2494,
+      "channels": 2486,
       "sources": 2
     }
   },
   "warnings": [],
   "source": "IPTV-org and curated public URL candidates; not live-verified",
-  "combined_unique_streams": 3466
+  "combined_unique_streams": 3458
 }
