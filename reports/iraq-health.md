@@ -1,8 +1,8 @@
 # Kontroll av IPTV-kanaler
 
-Körd (UTC): **2026-11-26T19:03:06+00:00**
+Körd (UTC): **2026-11-27T19:01:00+00:00**
 
-**69 adresser** – MEDIA_NÅBAR: 47 · SPELLISTA_NÅBAR: 1 · BLOCKERAD: 2 · SAKNAS: 10 · OSÄKER: 7 · FEL: 2
+**69 adresser** – MEDIA_NÅBAR: 50 · BLOCKERAD: 2 · SAKNAS: 8 · OSÄKER: 7 · FEL: 2
 
 **MEDIA_NÅBAR** betyder att ett M3U8-manifest och en del av ett mediasegment gick att hämta, inte att kanalen garanterat kan spelas i IBO Player. **SPELLISTA_NÅBAR** är en svagare kontroll. BLOCKERAD kan vara geografisk. Status kan ändras när som helst.
 
@@ -18,7 +18,7 @@ Körd (UTC): **2026-11-26T19:03:06+00:00**
 | Al Iraqia Sport (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Al Janoub TV | OSÄKER | Timeout, DNS eller nätverksfel |
 | Al Rasheed TV (1080p) [Not 24/7] | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Al Sharqiya (1080p) | SPELLISTA_NÅBAR | Manifest OK; segment: HTTP 404 |
+| Al Sharqiya (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Al Sharqiya News (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Al-Aimma TV (1080p) | SAKNAS | HTTP 404 |
 | Al-Jawadain TV (1080p) [Not 24/7] | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -29,7 +29,7 @@ Körd (UTC): **2026-11-26T19:03:06+00:00**
 | Alquran (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Amozhgary TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Anwar TV2 (720p) | BLOCKERAD | HTTP 403 (behörighet eller region) |
-| AVA Family | SAKNAS | HTTP 404 |
+| AVA Family | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | AVA Media (1080p) | FEL | HTTP 400 |
 | Avar TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | BeitolAbbas TV Channel (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -47,7 +47,7 @@ Körd (UTC): **2026-11-26T19:03:06+00:00**
 | Iraq Future (480p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Ishtar TV SD (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Karbala Documentary | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Kurd Channel | SAKNAS | HTTP 404 |
+| Kurd Channel | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Kurdistan 24 (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Kurdistan TV (720p) [Not 24/7] | SAKNAS | HTTP 404 |
 | Kurdsat (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |

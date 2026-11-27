@@ -1,8 +1,8 @@
 # Kontroll av IPTV-kanaler
 
-Körd (UTC): **2026-11-26T19:02:22+00:00**
+Körd (UTC): **2026-11-27T19:00:13+00:00**
 
-**59 adresser** – MEDIA_NÅBAR: 32 · SPELLISTA_NÅBAR: 1 · SAKNAS: 8 · OSÄKER: 13 · FEL: 5
+**59 adresser** – MEDIA_NÅBAR: 35 · SPELLISTA_NÅBAR: 1 · SAKNAS: 4 · OSÄKER: 14 · FEL: 5
 
 **MEDIA_NÅBAR** betyder att ett M3U8-manifest och en del av ett mediasegment gick att hämta, inte att kanalen garanterat kan spelas i IBO Player. **SPELLISTA_NÅBAR** är en svagare kontroll. BLOCKERAD kan vara geografisk. Status kan ändras när som helst.
 
@@ -24,7 +24,7 @@ Körd (UTC): **2026-11-26T19:02:22+00:00**
 | Ilke TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Jin TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Komala TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Kurd Channel | SAKNAS | HTTP 404 |
+| Kurd Channel | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Kurdistan 24 (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Kurdistan TV (720p) [Not 24/7] | SAKNAS | HTTP 404 |
 | Kurdsat (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -55,14 +55,14 @@ Körd (UTC): **2026-11-26T19:02:22+00:00**
 | Kurdsat News (reservkälla) | FEL | HTTP 503 |
 | Kurdistan 24 (reservkälla) | OSÄKER | Timeout, DNS eller nätverksfel |
 | Rudaw (reservkälla) | FEL | Servern returnerade inte M3U8 |
-| Speda TV | SAKNAS | HTTP 404 |
+| Speda TV | OSÄKER | Timeout, DNS eller nätverksfel |
 | Gali Kurdistan TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Kirkuk Satellite TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Zarok TV (Sorani) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Zarok TV (alternativ) | SAKNAS | HTTP 404 |
-| AVA Family | SAKNAS | HTTP 404 |
+| AVA Family | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Welat TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Khak TV | SAKNAS | HTTP 404 |
+| Khak TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Nubar TV | OSÄKER | Timeout, DNS eller nätverksfel |
 | Net TV | OSÄKER | Timeout, DNS eller nätverksfel |
 | Newline HD TV | OSÄKER | Timeout, DNS eller nätverksfel |

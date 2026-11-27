@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-26T19:02:22+00:00",
+  "checked_at_utc": "2026-11-27T19:00:13+00:00",
   "results": [
     {
       "name": "4Kurd",
@@ -100,8 +100,8 @@
     {
       "name": "Kurd Channel",
       "url": "https://kurdchhls.wns.live/hls/stream.m3u8",
-      "status": "SAKNAS",
-      "reason": "HTTP 404"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "Kurdistan 24 (1080p)",
@@ -286,8 +286,8 @@
     {
       "name": "Speda TV",
       "url": "https://s1.ettehadlive.com/live/79/chunklist.m3u8",
-      "status": "SAKNAS",
-      "reason": "HTTP 404"
+      "status": "OSÄKER",
+      "reason": "Timeout, DNS eller nätverksfel"
     },
     {
       "name": "Gali Kurdistan TV",
@@ -316,8 +316,8 @@
     {
       "name": "AVA Family",
       "url": "https://familyhls.avatv.live/hls/stream.m3u8",
-      "status": "SAKNAS",
-      "reason": "HTTP 404"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "Welat TV",
@@ -328,8 +328,8 @@
     {
       "name": "Khak TV",
       "url": "http://bblserver.ddns.net:1935/stream/khakhd/playlist.m3u8",
-      "status": "SAKNAS",
-      "reason": "HTTP 404"
+      "status": "MEDIA_NÅBAR",
+      "reason": "Manifest + del av mediasegment kan hämtas"
     },
     {
       "name": "Nubar TV",

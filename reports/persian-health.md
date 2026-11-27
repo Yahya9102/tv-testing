@@ -1,8 +1,8 @@
 # Kontroll av IPTV-kanaler
 
-Körd (UTC): **2026-11-26T19:02:53+00:00**
+Körd (UTC): **2026-11-27T19:00:47+00:00**
 
-**208 adresser** – MEDIA_NÅBAR: 136 · SPELLISTA_NÅBAR: 3 · BLOCKERAD: 31 · SAKNAS: 14 · OSÄKER: 17 · FEL: 7
+**208 adresser** – MEDIA_NÅBAR: 140 · SPELLISTA_NÅBAR: 3 · BLOCKERAD: 31 · SAKNAS: 9 · OSÄKER: 18 · FEL: 7
 
 **MEDIA_NÅBAR** betyder att ett M3U8-manifest och en del av ett mediasegment gick att hämta, inte att kanalen garanterat kan spelas i IBO Player. **SPELLISTA_NÅBAR** är en svagare kontroll. BLOCKERAD kan vara geografisk. Status kan ändras när som helst.
 
@@ -10,8 +10,8 @@ Körd (UTC): **2026-11-26T19:02:53+00:00**
 |---|---|---|
 | 4Kurd | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | 4 Music | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| 4U TV (720p) | SAKNAS | HTTP 404 |
-| 247 Box TV | SAKNAS | HTTP 404 |
+| 4U TV (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| 247 Box TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Abadan TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Aflak TV (576p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | AFN TV (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -24,10 +24,10 @@ Körd (UTC): **2026-11-26T19:02:53+00:00**
 | Ara TV (720p) | FEL | Servern returnerade inte M3U8 |
 | Arax TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Arko TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Arvan TV | SAKNAS | HTTP 404 |
+| Arvan TV | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Atrak TV (576p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Atrina TV | OSÄKER | Timeout, DNS eller nätverksfel |
-| AVA Family | SAKNAS | HTTP 404 |
+| AVA Family | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | AVA Series | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Avang TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Baran TV (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -92,7 +92,7 @@ Körd (UTC): **2026-11-26T19:02:53+00:00**
 | iFilm Persian (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Ilam TV (576p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Imam Hussein TV 1 (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Imam Hussein TV 6 (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
+| Imam Hussein TV 6 (1080p) | OSÄKER | Oförutsett svar |
 | Iran International (1080p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Iran Jewish TV (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Iran Nama | OSÄKER | Timeout, DNS eller nätverksfel |
@@ -121,7 +121,7 @@ Körd (UTC): **2026-11-26T19:02:53+00:00**
 | Kordestan TV (576p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | LabbaykTV (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | LoveWorld Persia (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Maah TV (720p) | SAKNAS | HTTP 404 |
+| Maah TV (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Mahabad TV (576p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Manoto | BLOCKERAD | HTTP 403 (behörighet eller region) |
 | Marjaeyat TV Persian (240p) [Not 24/7] | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
@@ -146,8 +146,8 @@ Körd (UTC): **2026-11-26T19:02:53+00:00**
 | Payam Javan TV (720p) [Not 24/7] | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Payame Aramesh TV (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Payvand TV (Iran) (720p) [Not 24/7] | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| PBC Tapesh TV (720p) | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
-| Persiana Cinema | SAKNAS | HTTP 404 |
+| PBC Tapesh TV (720p) | SAKNAS | HTTP 404 |
+| Persiana Cinema | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Persiana Comedy | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Persiana Docs | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
 | Persiana Family | MEDIA_NÅBAR | Manifest + del av mediasegment kan hämtas |
